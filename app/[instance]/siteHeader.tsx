@@ -1,10 +1,7 @@
 "use client";
 
-import { useState, useEffect } from "react";
-import Search from "@/components/search";
-import Image from "next/image";
+import { useState } from "react";
 import { Globals, Header } from "@/app/lib/types";
-import { ProductionSlug } from "@/content/config";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 // Commented out socket.io - not needed for static content
@@ -34,11 +31,7 @@ export default function SiteHeader({
   const pathname = usePathname();
   const { globals, header } = common;
   const { links = [] } = globals?.content || {};
-  const {
-    smallLogo,
-    largeLogo,
-    links: headerLinks = [],
-  } = header?.content || {};
+  const { links: headerLinks = [] } = header?.content || {};
 
   // Real-time updates disabled for static content
   // useEffect(() => {
@@ -99,45 +92,10 @@ export default function SiteHeader({
                 <path d="M4 7h16M4 12h16M4 17h16"></path>
               </svg>
             </button>
-            <a aria-label="Home page" href="/">
-              {largeLogo && largeLogo.url ? (
-                <Image
-                  className="h-7 hidden sm:block"
-                  src={largeLogo.url}
-                  alt={"Knowledgebase"}
-                  priority
-                  width={largeLogo.width}
-                  height={largeLogo.height}
-                />
-              ) : (
-                <Image
-                  className="h-7 hidden sm:block"
-                  src="/logo.png"
-                  alt="Knowledgebase"
-                  priority
-                  width={257}
-                  height={30}
-                />
-              )}
-              {smallLogo && smallLogo.url ? (
-                <Image
-                  className="h-7 sm:hidden"
-                  src={smallLogo.url}
-                  alt={"Knowledgebase"}
-                  priority
-                  width={smallLogo.width}
-                  height={smallLogo.height}
-                />
-              ) : (
-                <Image
-                  className="h-7 sm:hidden"
-                  src="/logo-sm.png"
-                  alt="Knowledgebase"
-                  priority
-                  width={30}
-                  height={22}
-                />
-              )}
+            <a aria-label="Home page" href="/" className="flex items-center">
+              <h1 className="text-2xl font-bold text-slate-900">
+                Mawaridna Docs
+              </h1>
             </a>
             <nav className="hidden lg:flex lg:space-x-8 lg:ml-12 xl:ml-16">
               {headerLinks.map((link) =>
@@ -156,9 +114,6 @@ export default function SiteHeader({
                 )
               )}
             </nav>
-          </div>
-          <div className="flex items-center flex-1 justify-end">
-            <Search instanceId={instanceId} navigation={links} />
           </div>
         </div>
       </header>
