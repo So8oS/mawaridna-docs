@@ -12,6 +12,7 @@ import OrderedList from "./sections/orderedList";
 import AuthorTable from "./sections/authorTable";
 import StandardHeading from "./sections/standardHeading";
 import ContactForm from "./sections/contactForm";
+import MarkdownBlock from "./sections/markdownBlock";
 
 interface SectionProps {
   section: any;
@@ -22,7 +23,7 @@ const sections: { [key: string]: React.FC<any> } = {
   PAGE_HEADER: PageHeader,
   CODE_BLOCK: CodeDisplay,
   TEXT_BLOCK_WITH_HEADER: TextBlockWithHeader,
-  TEXT_BLOCK: TextBlock,
+  TEXT_BLOCK: MarkdownBlock, // Use markdown renderer for text blocks
   INFO_BOX: InfoBox,
   ACTION_BOX: ActionBox,
   NAV_LINK: NavLink,

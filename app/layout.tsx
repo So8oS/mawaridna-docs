@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Headlesshost Knowledgebase",
-  description: "Headless CMS driven knowledgebase",
+  title: "MAWARIDNA Documentation",
+  description: "Complete documentation for MAWARIDNA HR Management System",
 };
 
 export default async function RootLayout({

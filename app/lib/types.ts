@@ -59,4 +59,5 @@ export interface ImageDetails {
   id: string;
 }
 
-export const ProductionSlug: string = "knowledgebase";
+// Using static content - ProductionSlug moved to content/config.ts
+export const ProductionSlug: string = "mawaridna";

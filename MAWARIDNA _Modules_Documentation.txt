@@ -1,0 +1,3862 @@
+﻿MAWARIDNA Modules Documentation
+Table of Contents
+Dashboard
+Recruitment
+Onboarding
+
+
+Employee
+
+
+Attendance
+
+
+Leave
+
+
+Payroll
+
+
+Performance
+
+
+Offboarding
+
+
+Assets
+________________
+
+
+Dashboard
+Navigation Bar (Top)
+Once logged in, you will see the main dashboard. The navigation bar at the top provides the following key features:
+* User Profile: Displays your name and provides access to account settings.
+
+* Language Settings: Change the system language.
+
+* Notifications: View alerts and updates.
+
+* Settings: Access additional configuration options.
+
+* Check-In / Check-Out: Start or stop your work timer to seamlessly track working hours.
+
+________________
+
+
+Dashboard Overview
+   1. Employee Metrics
+ Displays new joinings (today/this week) and total employee strength.
+
+   2. Announcements
+ Post important company updates using Add Announcement.
+
+   3. Offline Employees
+ Shows employees currently offline with options to send them emails.
+
+   4. Approval Panels
+ Approve or disapprove leave, shift, and work type requests.
+
+   5. Attendance Management
+ Manage leaves, validate attendance, and approve overtime requests.
+
+   6. Employee Work Information
+ Track progress of tasks with a built-in search feature.
+
+   7. Leave Allocation & Asset Requests
+ Approve leave allocations and asset requests.
+
+   8. Feedback & Analytics
+ Respond to employee feedback and review recruitment/attendance analytics.
+
+   9. Additional Analytics
+ View charts for hours worked, hired candidates, employee distribution, departments, gender, and objectives.
+
+   10. Online Employees
+ List of employees currently online with real-time status updates.
+
+________________
+
+
+Quick Access Panel (Bottom-Right Corner)
+This floating red button provides quick access to frequently used dashboard functionalities. Clicking it expands a vertical menu with the following options:
+      1. Dashboard Charts (Bar Graph Icon)
+ Customize which charts and panels appear on your dashboard.
+
+      2. Create Ticket
+ Log complaints, suggestions, or tasks. Details include:
+
+         * Title
+
+         * Description
+
+         * Type
+
+         * Priority
+
+         * Deadline
+
+            3. Create Asset Request
+ Request equipment or software resources.
+
+            4. Create Reimbursement / Encashment
+ Submit reimbursement or encashment requests (e.g., bonus point encashment).
+
+            5. Create Work Type Request
+ Request changes in work arrangement (e.g., remote or office).
+
+            6. Create Shift Request
+ Request changes to assigned shifts.
+
+            7. Leave Request
+ Submit leave applications with type, duration, and attachments.
+
+            8. New Attendance Request
+ Log attendance manually with details such as:
+
+               * Date
+
+               * Shift
+
+               * Check-in/Check-out times
+
+________________
+
+
+Purpose of the Quick Access Panel
+The Quick Access Panel simplifies routine administrative tasks by giving employees and HR managers an intuitive way to submit and manage requests directly from the dashboard.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Recruitment
+Overview
+Recruitment Overview
+The Recruitment Overview provides comprehensive insights into the ongoing recruitment processes and critical metrics to help HR teams monitor and optimize their efforts. Below is a detailed breakdown of the available metrics and sections on the dashboard.
+________________
+
+
+Key Metrics
+Total Vacancies
+Displays the total number of open job positions currently available across all departments.
+Ongoing Recruitments
+Tracks the number of active recruitment drives in progress.
+Hired Candidates
+Displays the total number of candidates successfully hired during the recruitment campaigns.
+Conversion Rate
+The percentage of candidates who progressed from the initial application stages to being hired.
+Formula: (Hired Candidates / Total Applications) × 100.
+Offer Acceptance Rate (OAR)
+Highlights the percentage of job offers accepted by candidates.
+Formula: (Accepted Offers / Total Offers Made) × 100.
+________________
+
+
+Skill Zone Status
+Displays whether any candidate skill zones exist.
+If no data is available, the section shows: “No skill zone available.”
+________________
+
+
+Candidate Offer Letter Status
+Displays the status of candidate offer letters.
+If no candidates exist, the section shows: “No Candidates available.”
+________________
+
+
+Candidate on Onboard
+                  * Shows candidates who have started the onboarding process.
+                  * If no candidates exist, the section shows: “No candidates started onboarding.”
+________________
+
+
+Joinings Per Month
+A chart showing the number of employees who joined each month.
+Helps track trends in hiring over the year.
+Dropdown available to filter by year.
+________________
+
+
+My Onboarding Tasks
+Displays onboarding tasks assigned to the user (if any).
+If none exist, the section shows: “No onboarding tasks are currently available.”
+________________
+
+
+Candidates Per Stage
+Shows the distribution of candidates across recruitment stages.
+If no stages exist, the section shows: “No recruitment stages currently available.”
+________________
+
+
+Recruitment Pipeline
+Recruitment Pipeline Overview
+The Recruitment Pipeline is a comprehensive tool to manage candidates throughout the hiring process. Designed for recruiters, it provides detailed information, actionable tools, and a streamlined workflow, ensuring an organized and efficient hiring process.
+________________
+
+
+Purpose and High-Level Overview
+The Recruitment Pipeline is divided into stages representing the progress of candidates, with two primary views:
+List View: A detailed table displaying candidate information and row-level actions.
+Card View: A Kanban-style layout where candidates are represented as draggable cards grouped by stages.
+Stages include:
+Initial: Candidates undergoing early screening.
+Interview: Candidates scheduled for interviews.
+Hired: Successfully hired candidates.
+Cancelled: Withdrawn or declined applications.
+________________
+
+
+Key Features
+1. List View Table Columns
+Each row in the List View provides detailed information about a candidate:
+Candidate: Displays the name and profile picture (or initials).
+Email: Candidate’s email for direct communication.
+Job Position: The role applied for.
+Contact: Candidate’s phone number.
+Scheduled Interviews: Number of interviews scheduled.
+Rating: A star-based evaluation system.
+Stage: Current stage of the candidate.
+Stage Bulk Update: A dropdown feature to update the stage for multiple candidates simultaneously.
+________________
+
+
+2. Card View (Kanban-Style Layout)
+The Card View allows recruiters to:
+View candidates as cards under their respective stages.
+Drag and drop candidates between stages to update their progress seamlessly.
+Display key candidate details on each card, such as name, email, job position, and rating.
+This view is particularly useful for visualizing the overall recruitment process and making quick adjustments.
+________________
+
+
+3. Action Icons (Row-Level Actions)
+In the List View, recruiters can perform quick actions using icons located in each row:
+                  1. Schedule Interview (Clock Icon): Set or manage interview times for the candidate.
+                  2. Send Email (Envelope Icon): Quickly send communication to the candidate.
+                  3. Move to Skill Zone (Skill Zone Icon): Transfer the candidate for detailed skill assessment.
+                  4. View Notes (Note Icon): Add or review notes about the candidate.
+                  5. Request Demo (Demo Icon): Request additional information or task demonstration.
+                  6. Resume (Document Icon): View or download the candidate’s resume.
+These actions enable efficient candidate management directly from the pipeline.
+________________
+
+
+Filters and Customization
+Filters
+Recruiters can refine their view using a robust filter panel:
+                  1. Recruitment Details: Filter by managers, companies, or recruitment types.
+                  2. Candidate Details: Filter by gender, rating, job position, or location.
+                  3. Recruitment Status: Narrow results based on stage status (e.g., open, closed, published).
+Customizable Stages
+Stages in the pipeline can be customized to fit the organization’s recruitment workflow:
+Add Stage: Create new stages by specifying the stage name, assigning stage managers, and selecting the stage type.
+Modify Existing Stages: Adjust current stages for better alignment with recruitment needs.
+________________
+
+
+Add Candidate
+The Add Candidate feature allows recruiters to manually input new candidates into the system.
+Form Fields
+Profile and Resume:
+Upload the candidate’s profile picture for visual identification.
+Upload the candidate’s resume in supported formats (PDF, Word, etc.).
+Candidate Information:
+Name, email, phone number, and gender.
+Stage:
+Assign the candidate to a specific stage in the pipeline.
+Job Position:
+Select the job position the candidate is applying for.
+Once added, candidates appear in the pipeline, ready for further management.
+________________
+
+
+Bulk Actions
+The Stage Bulk Update feature allows recruiters to:
+                  1. Select multiple candidates and update their stages simultaneously.
+                  2. Save time on repetitive tasks and streamline the workflow.
+________________
+
+
+Practical Use Cases
+Scenario 1: A candidate completes an interview, and the recruiter updates their stage from Interview to Hired via drag-and-drop in the Card View.
+Scenario 2: A bulk email is sent to all candidates in the Initial stage using the Send Email icon.
+Scenario 3: A recruiter filters candidates by job position and rating to focus on the most qualified individuals.
+________________
+
+
+
+
+Recruitment Survey
+Recruitment Survey Overview
+The Recruitment Survey section enables organizations to create, manage, and assign surveys to candidates as part of the hiring process. This feature enhances candidate evaluation by customizing surveys to assess relevant skills, knowledge, and experience.
+________________
+
+
+Survey Templates
+Survey templates act as reusable structures containing a set of questions. These templates must be created first before adding questions to them. Templates are tailored for different job roles or departments and can be assigned to specific recruitments.
+Templates & Questions View: Displays existing templates and their associated questions.
+Action Button: Use the red "+" button to add a new survey template or a new question.
+If no templates exist, the system shows: “No template groups have been established yet.”
+________________
+
+
+Adding a Survey Template
+The "Add Template" form includes the following fields:
+Title: The name of the survey template (e.g., "Technical Skills Assessment").
+Description: A brief description of the template's purpose or content.
+Company: Select the company associated with this survey template.
+Once the template is created, you can proceed to add questions to it.
+________________
+
+
+Survey Questions
+Survey questions are added to templates to create structured evaluations for candidates. You cannot add questions without first creating a survey template.
+________________
+
+
+Adding Questions
+To add a question, follow these steps:
+Template: Link the question to an existing survey template.
+Is Mandatory: Specify whether the question is mandatory for candidates to answer.
+Recruitment: Assign the question to a specific recruitment drive, if needed.
+Question: Define the content of the question (e.g., "Rate your proficiency in Python").
+Sequence: Specify the order in which the question appears within the survey.
+Type: Choose the question format (e.g., Text, Multiple Choice, Number, etc.).
+________________
+
+
+Features and Workflow
+Template Management:
+View all created templates and their questions.
+Expand templates to see detailed questions.
+Question Types:
+Multiple-choice, number-based, or text-based questions for flexibility in candidate evaluation.
+Filter and Search:
+Use the Search bar or Filter to locate specific templates or questions.
+Real-Time Updates:
+Templates and questions can be edited or updated instantly.
+Integration:
+Survey results are tied to recruitment drives, ensuring comprehensive candidate assessment.
+________________
+
+
+Workflow Summary
+                  1. Create a Template: Start by creating a survey template with a title, description, and company.
+                  2. Add Questions: Once the template is created, add questions with relevant types and sequences.
+                  3. Assign Surveys: Assign the survey to recruitment drives or specific candidates for completion.
+________________
+
+
+Talent Pool (Candidates)
+Candidates Overview
+The Talent Pool (labeled as Candidates within the module) is a central hub for managing candidate profiles, actions, and progress through the recruitment process. This module provides flexibility in visualizing and managing candidates using List View, Card View, and grouped filters.
+________________
+
+
+View Modes
+Card View:
+Displays candidates as cards with their name, email, and job position.
+Cards are color-coded based on recruitment status:
+Blue: Converted
+Green: Hired
+Grey: Not-Hired
+Red: Canceled
+List View:
+Provides a tabular format for detailed data management with additional actions and options.
+________________
+
+
+Table Columns (List View)
+The List View contains the following columns to display candidate information:
+Candidate: Name and profile picture/initials for quick identification.
+Email: Candidate’s email address.
+Phone: Candidate’s contact number.
+Recruitment: The recruitment campaign or drive associated with the candidate.
+Job Position: The role applied for.
+Scheduled Interviews: Displays the number of interviews scheduled.
+Rating: A star-based rating system for evaluating candidate performance.
+Stage: The current stage of the candidate (e.g., Applied, Interview).
+Resume: Access or download the candidate’s uploaded resume.
+Options:
+Convert to Employee: Converts the candidate into an employee record.
+Add to Skill Zone: Sends the candidate to the Skill Zone for assessment.
+Send Mail: Send an email directly.
+Actions:
+Edit the candidate profile.
+Delete the candidate record.
+________________
+
+
+Candidate Detail Profile
+When opening a candidate’s profile, the following tabs are available:
+About: Shows personal and recruitment information (DOB, Gender, Address, Recruitment drive, Department, Source, Current Stage, Referral).
+Resume: Uploaded resume files.
+Survey: Linked survey responses (if applicable).
+Notes: Add or view recruiter notes.
+History: Track activity and updates.
+Documents: Uploaded supporting documents.
+Rating: View or update candidate’s star rating.
+Mail Log: Shows email communication history.
+Scheduled Interviews: Displays interview schedules.
+Top-right actions include:
+Convert to Employee button.
+Edit Profile icon.
+Star Rating system.
+________________
+
+
+Actions Dropdown
+The Actions menu allows bulk and individual operations on selected candidates:
+Export: Export candidate data into a file.
+Bulk Mail: Send emails to multiple candidates.
+Create Document Request: Send document requests.
+Resume Shortlisting: Mark resumes for shortlisting.
+Archive/Un-Archive: Archive or restore candidates.
+Delete: Remove candidates from the system.
+________________
+
+
+Candidate Status Management
+Filters: Narrow candidates by recruitment campaign, job position, or status.
+Group By: Organize candidates by recruitment drive, status, or rating.
+________________
+
+
+Adding a New Candidate
+To add a candidate, click the + Create button, which opens the Add Candidate form:
+Profile: Upload a candidate’s profile picture.
+Resume: Upload a resume (PDF/Word).
+Basic Info: Name, email, phone, gender.
+Stage: Assign the candidate’s initial stage.
+Job Position: Select the relevant role.
+________________
+
+
+Interview
+Interviews Overview
+The Scheduled Interviews section is designed to streamline and manage interviews for candidates. It provides an organized interface for scheduling, viewing, and managing interviews. Below is the structured overview of this module:
+________________
+
+
+Key Features
+                  * Interview List View:
+                  * Displays all scheduled interviews in a tabular format.
+                  * Includes key details like candidate name, interviewer(s), date, time, description, and status.
+                  * Create Interview:
+                  * Allows recruiters to schedule new interviews with customizable details.
+                  * Actions:
+                  * Edit, delete, or mark interviews as completed.
+________________
+
+
+Table Columns
+Candidate:
+Displays the name of the candidate scheduled for the interview.
+Interviewer:
+Shows the assigned interviewer(s) with their profile icons for identification.
+Interview Date:
+Indicates the scheduled date of the interview.
+Interview Time:
+Specifies the exact time of the interview.
+Description:
+Additional notes or details about the interview.
+Status:
+Displays the current status of the interview (e.g., "Expired Interview").
+Actions:
+Provides quick options to edit or delete the interview.
+________________
+
+
+Scheduling an Interview
+To schedule an interview, click the Create button. A form will appear with the following fields:
+Candidate:
+Select the candidate from a dropdown list.
+Interviewer:
+Assign one or multiple interviewers.
+Dropdown displays available interviewers for selection.
+Interview Time:
+Specify the time of the interview.
+Description:
+Add any additional notes or instructions.
+Is Interview Completed:
+A toggle to mark the interview as completed after it’s conducted.
+Once all fields are filled, click Save to schedule the interview.
+________________
+
+
+Actions and Options
+Edit:
+Update the details of a scheduled interview by clicking the pencil icon in the Actions column.
+Delete:
+Remove an interview by clicking the trash icon.
+Status Management:
+Automatically updates based on the interview date and completion status (e.g., "Expired Interview").
+________________
+
+
+JOB POSTS
+Recruitment Overview
+The Recruitment Section is designed to manage recruitment drives and monitor the hiring process across multiple job positions. It provides detailed insights into recruitment status, actionable tools, and streamlined workflows.
+________________
+
+
+Recruitment Drives List
+The Recruitment section displays a table containing active and closed recruitment drives. Each row represents a recruitment drive and provides critical information, including:
+Recruitment Title: Name of the recruitment drive (e.g., Recruitment Drive, FutureForce Recruitment).
+Managers: Displays the list of managers responsible for the recruitment drive.
+Open Jobs: Shows the job positions available within the recruitment drive.
+Vacancy: Total number of open positions for the recruitment.
+Total Hires: Number of candidates hired out of the total number of candidates considered.
+Start Date/End Date: The recruitment drive's timeframe.
+Status: Indicates whether the recruitment is Open or Closed.
+Actions: Row-level actions allow users to perform quick tasks for each recruitment drive.
+________________
+
+
+Actions for Recruitment Drives
+Each row in the recruitment table includes action icons:
+Share: Share the recruitment drive link or details.
+Edit: Modify details of the recruitment drive.
+Clone: Duplicate the recruitment drive for similar job openings.
+Archive: Archive completed or outdated recruitment drives.
+Delete: Permanently remove the recruitment drive.
+________________
+
+
+Creating a Recruitment Drive
+To create a recruitment drive, click the Create button. This opens the Add Recruitment Form, where users can define the details of the drive:
+Form Fields
+Title: The name of the recruitment drive.
+Description: A detailed description of the recruitment drive.
+Job Position: Select the relevant job roles associated with this recruitment drive.
+Managers: Assign managers responsible for overseeing the drive.
+Start Date/End Date: Define the recruitment drive's timeframe.
+Vacancy: Specify the number of positions to fill.
+Company: Choose the company conducting the recruitment.
+Survey Templates: Attach relevant survey templates (if applicable).
+Skills: Add any skill requirements for the positions.
+Additional Options:
+Optional Profile Image: Specify whether candidates can upload a profile image.
+Optional Resume: Specify whether candidates can submit a resume.
+Is Published?: Toggle to publish or keep the recruitment draft.
+________________
+
+
+Open Positions
+Open Job Listings Overview
+The Open Jobs section is a public-facing module that displays all the currently available job listings. This section is accessible to potential candidates, enabling them to view job details and submit applications for specific roles. Here’s how the feature is structured:
+________________
+
+
+Job Cards
+Each job listing is displayed as a card summarizing the key details about the job and recruitment drive. The following elements are featured on each card:
+Company Logo: Displays the logo of the company conducting the recruitment drive.
+Company Name: Name of the hiring organization (e.g., Databridge).
+Job Duration: Shows the duration of the recruitment drive (e.g., "6 months, 2 weeks").
+Job Roles: Lists the available positions under the recruitment drive (e.g., Odoo Dev, Django Dev, Salesman).
+Recruitment Drive Title: Name of the recruitment drive (e.g., Recruitment Drive, FutureForce Recruitment).
+Capacity Bar: A visual progress bar indicating the number of applications received relative to the total capacity (e.g., "14 Applied of 15 Capacity").
+Details Button: Provides more information about the recruitment drive and job roles.
+________________
+
+
+Job Application Flow
+Apply Now Button:
+A quick-access button that allows candidates to start the application process for a specific job.
+Visible on the top right of each job card.
+Details Panel:
+Clicking the Details button opens a sidebar panel displaying detailed job information, including:
+Position: Job title and department (e.g., "Position: Django Developer & Odoo Dev").
+Job Description: A comprehensive overview of the job's responsibilities.
+Key Responsibilities: A list of core tasks and duties associated with the role.
+Requirements: Skills, qualifications, and experience needed for the position.
+Hiring Stages
+Stage Section Overview
+The Stage Section in the recruitment module is designed to manage and customize the stages of a recruitment process. It allows for granular control over the workflow for different recruitment drives. Here's a detailed breakdown:
+________________
+
+
+Structure and Layout
+The Stage Section organizes stages based on recruitment drives, displaying them as collapsible groups. Each recruitment drive contains a list of stages with the following columns:
+Title: The name of the stage (e.g., Initial, Interview, Hired, Cancelled).
+Managers: Lists the assigned managers responsible for handling candidates in the stage.
+Type: Indicates the stage type, such as Initial, Interview, Hired, or Cancelled.
+Actions: Provides options to edit, copy, or delete the stage.
+________________
+
+
+Key Features
+Add Stage
+Recruiters can create new stages for a recruitment drive by filling out the following fields:
+                  1. Stage Name:
+                  * Provide a unique name for the stage.
+                  2. Recruitment Drive:
+                  * Select the recruitment drive the stage belongs to.
+                  3. Stage Managers:
+                  * Assign one or more managers to oversee the stage. A dropdown menu lists all available managers.
+                  4. Stage Type:
+                  * Select from predefined types (Initial, Interview, Hired, Cancelled).
+Once saved, the stage appears under the selected recruitment drive.
+Edit Stage
+                  * Modify existing stages, including their title, managers, and type.
+Delete Stage
+Remove unwanted stages from the recruitment drive. Note: Deletion is permanent.
+Copy Stage
+Duplicate an existing stage, which is useful for creating similar stages with minor modifications.
+________________
+
+
+Stage Management by Recruitment Drive
+Stages are grouped by recruitment drives for better organization. Each drive displays the number of associated stages, and users can expand or collapse the list to view details.
+Example:
+Recruitment Drive:
+Initial
+Interview
+Hired
+Cancelled
+FutureForce Recruitment:
+Initial
+Test
+Interview
+Cancelled
+________________
+
+
+Visual Indicators
+Color-coded stage types for quick identification:
+Blue: Initial
+Yellow: Test
+Orange: Interview
+Green: Hired
+Red: Cancelled
+________________
+
+
+Skills Database
+Skill Zone Overview
+The Skill Zone is designed to organize candidates based on their unique skills or expertise. It allows recruiters to allocate candidates into specific skill zones for better management and assessment. This section provides functionality to add new zones, categorize candidates, and track relevant information.
+________________
+
+
+Skill Zone Structure
+Skill Zone List:
+Displays existing skill zones.
+Includes information such as:
+Skill Zone Title: The name of the skill category (e.g., Designer).
+Candidates: A list of candidates assigned to the skill zone.
+Reason: The reason for assigning the candidate to this zone.
+Added On: Date of addition.
+Resume: Viewable resumes of the candidates.
+Actions:
+Edit Skill Zone: Modify the details of an existing skill zone.
+Delete Skill Zone: Remove the skill zone if it's no longer needed.
+________________
+
+
+Adding a Skill Zone
+The Add Skill Zone feature allows recruiters to create a new skill category. The process involves:
+Skill Zone Title: Define the name of the new zone.
+Description: Provide details about the purpose or scope of the skill zone.
+Company: Assign the skill zone to a specific organization.
+Once saved, the new skill zone is added to the list and can be assigned to candidates.
+________________
+
+
+Assigning Candidates to a Skill Zone
+Candidates can be assigned to specific skill zones using the Skill Zone Candidate feature:
+                  * Skill Zone:
+                  * Select an existing skill zone from the dropdown menu.
+                  * Candidate:
+                  * Choose the candidate from the list of available candidates.
+                  * Reason:
+                  * Specify the reason for assigning the candidate to this skill zone (e.g., "Better design knowledge").
+This categorization helps streamline candidate management and allows recruiters to focus on specific skills during hiring.
+________________
+
+
+Skill Zone Actions for Candidates
+Within each skill zone, recruiters can perform the following actions for candidates:
+View Resume: Directly access the candidate’s resume for evaluation.
+Edit Assignment: Modify the candidate’s details or reason for being in the skill zone.
+Remove from Zone: Delete the candidate’s association with the skill zone.
+
+
+Onboarding
+
+Tasks View
+Onboarding Overview
+The Onboarding module is a structured interface designed to manage the process of transitioning candidates into employees. This section combines task management, stage progression, and seamless communication tools to streamline onboarding.
+________________
+
+
+Core Components
+                  7. Stages
+                  * Onboarding stages are configurable and can represent the different phases of onboarding (e.g., Initial, Documentation, Final Stage).
+                  * Stages are displayed in:
+                  * List View: Tabular layout with details for each candidate.
+                  * Card View: Kanban-style interface for visual progress tracking.
+                  8. Candidate Information
+                  * Displays candidate details such as:
+                  * Email
+                  * Job Position
+                  * Mobile Number
+                  * Joining Date
+________________
+
+
+Key Features
+Stage Management
+                  5. Add or modify stages to customize onboarding processes.
+                  6. Define Stage Title, assign Stage Managers, and mark as the Final Stage if applicable.
+Task Assignment
+Assign tasks to specific candidates or groups.
+Provide Task Title, select Task Managers, and specify the candidates involved.
+Bulk Stage Changes
+                  4. Update the stage for multiple candidates simultaneously to save time and improve efficiency.
+Communication Options
+                  4. Use the Send Mail feature for quick communication directly from the onboarding view.
+Portal and Task Status
+Portal Status: Displays the progress of candidates on the onboarding portal.
+Task Status: Tracks task completion at an individual level.
+________________
+
+
+Actions and Navigation
+List View
+Columns:
+Candidate
+Email
+Job Position
+Mobile
+Joining Date
+Portal Status
+Task Status
+Stage
+Options
+Options Available:
+Send emails to candidates.
+Assign tasks and update stages.
+Card View
+Drag and drop candidates between stages to update their onboarding progress.
+Each card displays:
+Candidate Name
+Job Position
+Email
+Task Status
+________________
+
+
+Adding Stages and Tasks
+Add a Stage
+Fields:
+Stage Title: Name of the stage.
+Stage Managers: Assign managers to oversee the stage.
+Is Final Stage: Mark the stage as the endpoint of onboarding if necessary.
+Add a Task
+Fields:
+Task Title: Title of the task.
+Task Managers: Select individuals responsible for managing the task.
+Candidates: Choose candidates to assign the task to.
+________________
+
+
+Candidates Tracker
+Candidates Tracker Overview
+The Candidates View Section under Onboarding provides a centralized interface for managing hired candidates and their onboarding progress. It allows recruiters and HR professionals to track candidate statuses, send onboarding portals, and update offer letter statuses with actionable tools and options.
+________________
+
+
+Key Features and Structure
+Candidate Information Table
+The main section displays a detailed table of all hired candidates with the following columns:
+                  * Candidate: Displays the candidate's name and profile picture/initials.
+                  * Email: The candidate's registered email address.
+                  * Date of Joining: Indicates the candidate's scheduled joining date.
+                  * Probation Ends: Field to specify the end date of the candidate's probation period.
+                  * Job Position: The position or job role offered to the candidate.
+                  * Recruitment: Links the candidate to the specific recruitment drive they belong to.
+                  * Offer Letter: Shows the status of the candidate's offer letter (e.g., Not Sent, Sent, Accepted, Rejected, Joined).
+Action Icons
+Each candidate row includes the following actions:
+                  * Edit: Opens the candidate's profile for updates or modifications.
+                  * Send Mail: Enables sending emails directly to the candidate.
+                  * Add to Rejected Candidates: Moves the candidate to a rejected status.
+                  * Send Portal/Start Onboarding: Initiates the onboarding process or sends the onboarding portal to the candidate.
+                  * Delete: Permanently removes the candidate from the list.
+________________
+
+
+Actions Menu
+Located at the top-right of the page, the Actions Menu provides bulk operations:
+Export: Export candidate data to a file.
+Offer Letter Status:
+Filter candidates based on the current offer letter status (e.g., Sent, Accepted, Rejected).
+Update the status for selected candidates.
+________________
+
+
+Creating and Managing Candidates
+Add New Candidate
+Using the Create button:
+                  3. Open the candidate creation form.
+                  4. Fill out essential details, including:
+                  * Personal Information: Name, Email, Date of Birth, Address.
+                  * Professional Details: Job Position, Recruitment Drive, Mobile, Gender, Resume Upload.
+                  * Other Details: Country, State, Source, Referral Information.
+                  5. Toggle the Is Active switch to mark the candidate as active in the system.
+                  6. Click Save to add the candidate.
+________________
+
+
+Onboarding Actions
+Send Portal
+                  * Select candidates and click Send Portal to initiate onboarding and send relevant information.
+Bulk Actions
+                  * Select multiple candidates to update statuses or take group actions, such as sending emails or changing offer letter statuses.
+________________
+
+
+Status Indicators
+Portal Status: Tracks if the onboarding portal has been sent or not.
+Joining Not-Set/Set: Indicates whether the candidate’s joining date has been finalized.
+Offer Letter Status: Highlights the offer letter progress:
+Not Sent
+Sent
+Accepted
+Rejected
+Joined
+________________
+
+
+Filter and Group By Options
+Filter: Refine candidates by job position, recruitment drive, offer letter status, or onboarding progress.
+Group By: Organize candidates based on recruitment campaigns, joining status, or other attributes.
+________________
+
+
+Visual Indicators
+Color Codes:
+Green: Portal Sent.
+Yellow: Joining Not-Set.
+Red: Offer Letter Pending or Not Sent.
+________________
+
+
+
+
+Employee
+
+
+Profile
+Employee Page: Profile Section
+The Employee Profile section in the system provides comprehensive details about an individual employee, including personal, work, and banking information. This section is divided into various tabs for ease of navigation and data management.
+________________
+
+
+1. Overview
+Location: Sidebar Navigation > Employee > Profile
+Primary Fields:
+Name
+Work Email
+Email
+Work Phone
+Phone
+Actions:
+Edit: Allows the modification of employee details.
+________________
+
+
+2. Tabs and Their Details
+About Tab
+Personal Information:
+Date of Birth
+Gender
+Address
+Country
+State
+City
+Qualification
+Experience
+Marital Status
+Children
+Emergency Contact Details (Name, Phone, Relation)
+Work Information:
+Department
+Job Position
+Shift Information
+Work Type
+Employee Type
+Salary
+Reporting Manager
+Company
+Work Location
+Joining Date
+End Date
+Tags
+Contract Details:
+                  * Contract Name
+                  * Start Date
+                  * End Date
+                  * Wage Type (e.g., Monthly, Hourly)
+                  * Basic Salary
+                  * Edit and Delete actions for existing contracts.
+Bank Information:
+Bank Name
+Branch
+Bank Address
+Account Number
+Bank Code #1
+Bank Code #2
+Country
+Work Type & Shift Tab
+Details about assigned shifts and work types.
+Attendance Tab
+                  5. Displays attendance logs and patterns.
+Leave Tab
+Provides details about leave balance and leave applications.
+Payroll Tab
+Shows payroll details, including salary, deductions, and allowances.
+Allowance & Deduction Tab
+Lists any additional allowances or deductions applied to the employee.
+Penalty Account Tab
+Details any penalties incurred by the employee.
+Assets Tab
+Shows company-provided assets assigned to the employee.
+Performance Tab
+Displays performance reviews and related metrics.
+Documents Tab
+Provides an overview of uploaded documents related to the employee.
+Bonus Points Tab
+Tracks any bonus points or rewards earned by the employee.
+Scheduled Interview Tab
+Lists scheduled interviews (if applicable).
+________________
+
+
+3. Key Features
+                  9. Edit Button: Located in the top right corner to modify employee details.
+                  10. Tabular Organization: Data is segmented into intuitive tabs for quick access.
+                  11. Banking Details: Captures essential financial details for payroll processing.
+                  12. Work Details: Comprehensive work-related information, including job position, department, and reporting manager.
+                  13. Contract Management: Manage employment contracts with start/end dates and salary details.
+                  14. Document Management: Central repository for all employee-related documents.
+________________
+
+
+4. Visual Breakdown
+The page displays essential personal and work information upfront.
+Tabs allow detailed navigation into various aspects of the employee profile.
+Icons and labels improve usability and data readability.
+________________
+
+
+5. User Permissions
+Access to this section may vary based on user roles and permissions:
+HR/Admin: Full access, including edit and view rights.
+Manager: Restricted to viewing their team members.
+Employee: Can view their own profile only.
+________________
+
+
+This section ensures centralized and efficient management of employee data while maintaining role-based access for data security.
+________________
+
+
+Employee Directory
+Employee Directory Section
+The Employee Management Section provides a centralized view of all employees within the organization. This section allows for detailed management of employee data, actions, and reports.
+________________
+
+
+1. Overview
+Location: Sidebar Navigation > Employee > Employees
+Primary Features:
+View all employees in a tabular format.
+Perform actions such as exporting data, editing employee information, or deleting records.
+________________
+
+
+2. Employee List Table
+Columns and Their Details
+Employee: Displays the name and unique badge ID of the employee.
+Email: The email address of the employee.
+Phone: Contact number of the employee.
+Badge ID: Unique identification number assigned to the employee.
+Job Position: Current role or position of the employee in the company.
+Department: Department to which the employee belongs.
+Shift: Assigned work shift (e.g., Regular Shift, Night Shift).
+Work Type: Specifies if the employee is working from the office, remote, or hybrid.
+Reporting Manager: Name and badge ID of the reporting manager.
+Company: The company entity under which the employee is employed.
+Work Email: Official email address provided by the company.
+Date of Joining: Date when the employee joined the organization.
+Actions: Includes icons for the following actions:
+Export Data: Export individual employee data.
+Send Mail: Send an email to the employee.
+Edit: Edit employee details.
+Terminate/End Contract: Mark an employee for termination.
+Delete: Remove the employee record.
+Bulk Actions
+Select All Employees: Perform bulk actions on selected employees.
+Group By: Categorize employees based on selected criteria (e.g., Department, Shift, Work Type).
+Export: Export a filtered list of employees.
+________________
+
+
+3. Adding a New Employee
+Steps to Add an Employee
+Click the "+ Create" button in the top-right corner.
+Fill in the details in the New People Form:
+Badge ID: Automatically generated or editable.
+Personal Information:
+First Name
+Last Name
+Email
+Phone
+Address
+Country, State, City
+Date of Birth
+Gender
+Work Information:
+Job Position
+Department
+Shift
+Work Type
+Reporting Manager
+Date of Joining
+Additional Details:
+Qualification
+Experience
+Marital Status
+Children
+Emergency Contact Details (Name, Phone, Relation)
+Status:
+Toggle "Is Active" to indicate if the employee is currently active.
+Click Save Changes to add the new employee.
+________________
+
+
+4. Key Functionalities
+Filters and Search
+Use the search bar to quickly locate employees by name, email, or other attributes.
+Apply filters to refine the employee list based on department, job position, shift, etc.
+Data Export
+Export individual or bulk employee data in a downloadable format.
+Export options are available in the Actions menu.
+Employee Actions
+Edit: Modify employee details such as personal, work, or contact information.
+Send Mail: Communicate directly with employees through the system.
+Delete: Permanently remove an employee's record from the system.
+Terminate/End Contract: Manage employee exits and offboarding processes.
+________________
+
+
+5. Visual Elements
+Tabular Layout: Provides a clean and organized view of all employees.
+Icons for Actions: Easily identifiable icons for actions like edit, delete, and export.
+Status Indicators: Online and Offline indicators for employees.
+________________
+
+
+6. Role-Based Access
+Access to the employee management section is restricted based on user roles:
+                  7. HR/Admin: Full access to view, edit, delete, and manage employees.
+                  8. Manager: Access to employees within their team or department.
+                  9. Employee: Limited access to their own profile.
+________________
+
+
+This section ensures a streamlined process for managing employee information while maintaining security and ease of use.
+________________
+
+
+Documents & Requests
+Documents & Requests
+The Documents & Requests section allows the HR team and managers to manage and track document submissions from employees efficiently. This section is designed for clear navigation and bulk actions to streamline document handling.
+________________
+
+
+1. Overview
+Location: Sidebar Navigation > Employee > Document Requests
+Primary Features:
+Create document requests for individual or multiple employees.
+Track document statuses.
+Approve, reject, or edit requests easily.
+________________
+
+
+2. Key Features
+2.1 Create Document Request
+Access: Click on the "+ Create" button in the top right corner.
+Fields:
+Title: Name of the document being requested.
+Employees: Select one or more employees using a search filter.
+Format: Choose the required file format (e.g., PDF, DOC).
+Max Size (in MB): Specify the maximum file size allowed.
+Description: Provide additional details or instructions for the request.
+Action: Save the request.
+2.2 Document Request List
+Displays requests categorized by document type (e.g., Aadhar, Passport).
+Columns:
+Document title
+Employee name
+Submission status (e.g., pending, approved, rejected)
+Actions (e.g., edit, delete)
+2.3 Actions
+Approve or Reject: Approve or reject document submissions.
+Bulk Actions:
+Approve multiple requests.
+Reject multiple requests.
+Edit Request: Modify an existing document request.
+Delete Request: Permanently remove a document request.
+________________
+
+
+3. Document Request Status
+Each request includes visual indicators to track submission status:
+Pending: Document submission is awaited.
+Approved: Document has been reviewed and approved.
+Rejected: Document submission has been rejected.
+________________
+
+
+4. User Permissions
+Access to this section is role-based:
+                  * HR/Admin: Full access, including creating, editing, and deleting requests.
+                  * Manager: Restricted to requests for employees in their team.
+                  * Employee: Limited to viewing and responding to their own document requests.
+________________
+
+
+5. User Interface Breakdown
+Filter and Search
+                  5. Filter requests by:
+                  * Document type
+                  * Status (e.g., pending, approved, rejected)
+                  * Employee name
+                  6. Search functionality for quick access to specific requests.
+Bulk Actions
+Located in the Actions dropdown.
+Options:
+Bulk Approve Requests
+Bulk Reject Requests
+Detailed View
+Expand categories to view employee-specific requests under each document type.
+Inline actions for each request (approve, reject, delete).
+Action Menu
+Inline menu for individual requests:
+Edit: Modify request details.
+Delete: Remove the request.
+________________
+
+
+This section ensures a streamlined approach to managing employee document requests with a clear interface and role-based permissions.
+________________
+
+
+Shift Change Requests
+Shift Change Requests Section Overview
+The Shift Request section allows managers or administrators to review, manage, and update shift change requests submitted for employees. Employees do not have direct access to this feature.
+________________
+
+
+1. Features
+Shift Change Request List
+Displays all submitted shift requests in a tabular format.
+Key Columns:
+Employee: Name and badge ID of the employee.
+Requested Shift: The shift the employee is requesting.
+Previous/Current Shift: The employee's current or previous shift.
+Requested Date: Start date of the requested shift change.
+Requested Till: End date of the requested shift change.
+Status: Indicates whether the request is Requested, Approved, or Rejected.
+Description: Notes provided by the employee for the request.
+Confirmation: Approval or rejection buttons for quick action.
+Actions Menu
+                  * Details: View request details, including the shift, dates, and request description.
+                  * Edit: Modify the shift request details.
+                  * Delete: Remove the shift request.
+________________
+
+
+2. Shift Request Creation
+Button: + Create
+Fields Required:
+Employee: Employee making the request.
+Requesting Shift: The desired shift.
+Requested Date: Start date for the requested shift.
+Requested Till: End date for the requested shift.
+Description: Reason for the shift request.
+Permanent Request: Toggle for permanent shift change.
+________________
+
+
+3. Request Details
+On clicking a request, a detailed view opens displaying:
+Employee Information: Name, badge ID, department, and job position.
+Shift Details: Current shift, requested shift, and dates.
+Request Description: Notes from the employee.
+Actions:
+Edit the request.
+Delete the request.
+________________
+
+
+4. Filters and Bulk Actions
+Filter Options:
+Filter requests by status (Approved, Rejected, or Pending).
+Group requests by employees, status, or shifts.
+Bulk Actions:
+Bulk approve requests.
+Bulk reject requests.
+________________
+
+
+Work Schedule Requests
+Work Schedule Requests Section
+Overview
+The Work Type Request section allows employees to submit requests for changes to their work type, such as switching from "Work From Office" to "Work From Home" or "Remote."
+Navigation: Sidebar > Employee > Work Type Requests
+Purpose: To streamline the approval process for work type change requests.
+________________
+
+
+Features and Actions
+1. Work Type Request List
+Displays all submitted work type requests in a tabular format.
+Columns:
+Employee Name and Badge ID
+Requested Work Type
+Previous/Current Work Type
+Requested Date
+Requested Till
+Status (Requested, Approved, Rejected)
+Description
+Comments
+Actions (Edit, Delete)
+2. Status Indicators
+Green: Approved
+Red: Rejected
+Default: Requested
+3. Bulk Actions
+Bulk approval and rejection options are available under the "Actions" dropdown.
+________________
+
+
+Request Creation
+Steps to Create a Work Type Request:
+Click the + Create button.
+Fill in the following details:
+Employee: Select the employee submitting the request.
+Requesting Work Type: Choose the desired work type.
+Requested Date and Requested Till: Define the duration of the request.
+Description: Provide a reason for the work type change.
+Permanent Request: Toggle on/off as applicable.
+Click Save.
+________________
+
+
+Detailed View
+Clicking on a request shows a pop-up with all the details:
+Employee Name and Badge ID
+Department
+Job Role
+Requested and Current Work Types
+Dates and Status
+Description
+________________
+
+
+Assign Rotating Shifts
+Assign Rotating Shifts
+The Assign Rotating Shifts section in the employee module is designed to manage rotating work schedules. It enables administrators to assign, track, and manage work type rotations such as "Work From Office (WFO)" to "Work From Home (WFH)" for employees based on predefined criteria.
+________________
+
+
+Overview
+Location: Sidebar Navigation > Employee > Assign Rotating Shifts
+Key Features:
+Assign rotations for one or multiple employees.
+Define work type schedules with flexibility.
+View and manage active and future rotations.
+________________
+
+
+1. Core Features
+Main Table
+Fields Displayed:
+Employee Name
+Title (e.g., WFO to WFH)
+Based On (e.g., After, Before)
+Rotation Period (e.g., Rotate after X days)
+Start Date
+Current Work Type
+Next Work Type
+Next Switch Date
+Actions (Edit, Delete)
+Bulk Actions:
+Export: Export the rotation details to a file.
+Archive: Archive completed or inactive rotations.
+Un-Archive: Retrieve archived records.
+________________
+
+
+2. Assigning a Rotation
+Steps:
+Click on the "Assign" button.
+Fill out the rotation details in the form:
+Employees: Select one or multiple employees.
+Rotating Work Type: E.g., WFO to WFH.
+Start Date: Specify when the rotation starts.
+Based On: Define the criteria (e.g., After or Before specific conditions).
+Rotate After Days: Indicate the frequency of the switch.
+Save the rotation.
+________________
+
+
+3. Viewing Rotation Details
+                  * Steps:
+                  * Click on an employee’s record.
+                  * View the rotation details in a modal, including:
+                  * Current Work Type
+                  * Next Work Type
+                  * Rotation Frequency
+                  * Status (Active/Inactive)
+Actions in Modal:
+Edit: Modify the rotation details.
+Archive: Move the rotation to the archive.
+Delete: Permanently remove the rotation.
+________________
+
+
+Assign Rotating Schedules
+Assign Rotating Schedules
+The Assign Rotating Schedules section in the employee module is designed to manage rotating work schedules for employees. It allows administrators to assign, track, and manage schedule rotations based on predefined criteria, ensuring flexible workforce management.
+________________
+
+
+Overview
+Location: Sidebar Navigation > Employee > Assign Rotating Schedules
+Key Features:
+Assign schedules for one or multiple employees.
+Define flexible rotation rules.
+View and manage active and upcoming schedule rotations.
+________________
+
+
+1. Core Features
+Main Table
+Fields Displayed:
+Employee Name
+Schedule Title
+Based On (e.g., After, Before)
+Rotation Period (e.g., Rotate after X days)
+Start Date
+Current Schedule
+Next Schedule
+Next Switch Date
+Actions (Edit, Delete)
+Bulk Actions:
+Export: Export rotation details to a file.
+Archive: Archive completed or inactive schedules.
+Un-Archive: Retrieve archived records.
+________________
+
+
+2. Assigning a Rotation Schedule
+                  7. Steps:
+                  * Click on the "Assign" button.
+                  * Fill out the schedule details in the form:
+                  * Employees: Select one or multiple employees.
+                  * Rotating Schedule: Choose the schedule type (e.g., Day Shift to Night Shift).
+                  * Start Date: Specify when the rotation starts.
+                  * Based On: Define the criteria (e.g., After or Before).
+                  * Rotate After Days: Indicate the frequency of the schedule switch.
+                  * Save the schedule.
+________________
+
+
+3. Viewing Rotation Schedule Details
+Steps:
+Click on an employee’s record.
+View details in a modal, including:
+Current Schedule
+Next Schedule
+Rotation Frequency
+Status (Active/Inactive)
+Actions in Modal:
+Edit: Modify the schedule details.
+Archive: Move the schedule to the archive.
+Delete: Permanently remove the schedule.
+________________
+
+
+Disciplinary Records
+Disciplinary RecordsSection
+Overview
+The Disciplinary Records section in the system allows HR and managers to manage and track actions taken against employees for workplace violations or misconduct.
+________________
+
+
+Features and Functionalities
+Action Management
+HR or authorized personnel can record disciplinary actions taken against employees.
+Action types include warnings, suspensions, and termination.
+Allows input of additional details such as the reason for the action and attachments for supporting evidence.
+Data Overview
+Displays all recorded actions in a tabular format for easy tracking.
+Includes details like:
+Employee Name
+Action Taken
+Login Block Status (indicates whether the action includes restricting login access)
+Action Date
+Attachments (supporting files related to the action)
+Description (summary or reason for the action)
+Action Buttons
+Edit: Modify details of the recorded action.
+Delete: Remove a recorded action from the list.
+________________
+
+
+Workflow
+Add a Disciplinary Action
+Click on + Take An Action.
+Fill in the required details:
+Employee: Select the employee the action is being taken against.
+Action Type: Choose from predefined options (e.g., Warning, Suspension).
+Description: Provide a reason for the action.
+Action Date: Specify the date of action.
+Attachment: Upload any supporting documents (optional).
+Save the action to include it in the list.
+Filter and Search
+Use the search bar or filter options to locate specific actions or employees.
+Filters can include date range, action type, or login block status.
+View and Manage Actions
+Edit or delete records as needed to maintain accurate and up-to-date information.
+________________
+
+
+Policies
+Company Policies
+The Company Policies Section in the employee management system is a centralized hub where HR or administrators can manage and publish company policies. Employees can view these policies directly from their dashboard.
+________________
+
+
+1. Features
+Policy Creation:
+Allows administrators to create policies using a rich text editor.
+Includes formatting tools to customize the policy content.
+Administrators can attach files for additional documentation.
+Policies can be made visible to all employees or specific groups based on company hierarchy.
+Policy Management:
+Policies are displayed in a card layout for quick access.
+Each card includes:
+Title of the policy.
+A summary or key points of the policy.
+Buttons for viewing, editing, or deleting the policy.
+Search and Navigation:
+Includes a search bar for quickly locating specific policies.
+Paginated display ensures ease of navigation for a large number of policies.
+________________
+
+
+Organizational Chart
+Organizational Chart Section
+The Organizational Chart section provides a visual representation of the company's hierarchy and reporting structure, allowing users to understand how employees are connected within the organization.
+Key Features:
+Search and Dropdown Navigation:
+Employees can be selected from a dropdown menu to view their position and reporting relationships.
+Easy navigation to identify roles and direct reports.
+Hierarchy Display:
+Displays the structure in a tree format with clear labels for:
+Employee names.
+Job positions or roles (e.g., Sales Manager, React Developer).
+Highlights reporting relationships and team structures.
+Dynamic Updates:
+The chart dynamically updates based on the selected employee, showing:
+Direct reports.
+Higher-level managers or supervisors.
+Scalability:
+Capable of displaying both small teams and large, complex hierarchies.
+Supports scrolling for detailed exploration of the organizational structure.
+
+
+
+
+
+
+Attendance
+
+
+
+
+Attendance Overview
+Attendance Dashboard
+The Attendance Overview section provides a comprehensive and real-time view of employee attendance. It helps managers, HR personnel, and admins monitor attendance trends, employee availability, and tasks requiring immediate action.
+________________
+
+
+1. Dashboard Features
+1.1 Overview Metrics
+                  * Today’s Attendances: Displays the percentage of employees present for the current day.
+                  * On Time: Number of employees who reported on time.
+                  * Late Come: Number of employees who arrived late.
+1.2 Analytics
+                  * Attendance Analytic: Date-based analysis of attendance records with filters (Day, Week, Month).
+                  * Hours Chart: Visual comparison of Pending Hours vs Worked Hours across departments.
+1.3 Employee Highlights
+                  * Offline Employees:
+                  * Lists employees marked as absent for the day.
+                  * Displays employee ID and status (e.g., Expected Working).
+                  * On Break:
+                  * Shows employees currently on break.
+                  * If no employees are on break, the section displays: “No employees are currently taking a break.”
+1.4 Key Action Items
+                  10. Overtime to Approve:
+                  * Lists employees with overtime hours pending approval.
+                  * Includes:
+                  * Employee ID & Name
+                  * Check-In / Check-Out
+                  * Overtime Hours
+                  * Approval/Reject action buttons
+                  11. Attendance to Validate:
+                  * Displays attendance records awaiting validation.
+                  * Includes:
+                  * Employee ID
+                  * Date
+                  * Check-In / Check-Out
+                  * Validation action button (Validate)
+                  12. Department Overtime Chart:
+                  * Provides overtime data by department.
+                  * If no validated records exist, displays: “No validated Overtimes were found.”
+________________
+
+
+2. Usability Enhancements
+                  15. Search & Filters: Quickly locate employee attendance by date, name, or status.
+                  16. Real-Time Updates: Validations and approvals update instantly across the dashboard.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Biometric Devices
+Biometric Devices Section
+The Biometric Devices section (Attendance → Biometric Devices) is designed to manage and configure biometric devices used for tracking attendance. It provides administrators with the ability to add, test, and manage device integrations seamlessly.
+________________
+
+
+Key Features
+                  6. Device List and Status
+                  * Displays all biometric devices as cards with:
+                  * Device Name
+                  * Device Type (e.g., ZKTeco Biometric)
+                  * IP Address
+                  * Live Capture toggle (Activate/Deactivate)
+                  * Action buttons: Test, Schedule, Employee
+                  * Devices are categorized by connectivity status:
+                  * Live Capture (orange)
+                  * Scheduled (blue)
+                  * Not Connected (red)
+                  7. Add New Device
+                  * Administrators can add new devices by clicking the + Add button.
+                  * Required fields include:
+                  * Name: Assigned name of the device
+                  * Device Type: Supported types (e.g., ZKTeco, Anviz, Matrix COSEC)
+                  * Request ID
+                  * API URL
+                  * API Key & Secret (authentication)
+                  8. Device Configuration
+                  * Configure integration settings including secure API connection.
+                  * Enable or disable live capture mode as needed.
+                  9. Fetch Devices
+                  * Use the Fetch Devices button to refresh and update the device list.
+                  10. Filtering Options
+                  * Search and filter devices by type, status, or name.
+________________
+
+
+Workflow
+Adding a Device
+Go to Attendance → Biometric Devices → + Add.
+Complete required fields and save the configuration.
+Device Management
+Monitor device status directly from the dashboard.
+Use quick actions (Test, Schedule, Employee) for each device.
+Troubleshoot devices marked as Not Connected.
+________________
+
+
+Benefits
+Centralized device management.
+Secure integration with API credentials.
+Accurate attendance tracking by ensuring devices remain active.
+Flexible scheduling and live capture options for real-time monitoring.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Records
+The Records section within the Attendance module provides a detailed overview and management tools for employee attendance records. It allows administrators and managers to view, edit, and add attendance entries.
+________________
+
+
+Features
+Attendance Records Overview
+Displays detailed information for each employee, including:
+Employee name & ID
+Batch
+Date & Day
+Check-In & In Date
+Check-Out & Out Date
+Shift details
+Supports pagination for navigating large sets of records.
+Attendance Validation Status
+While validation occurs in the Attendance Overview dashboard, this Records section reflects finalized attendance data.
+Adding Attendance
+Click + Create to manually add attendance:
+Select employee name/ID
+Enter attendance date and shift type
+Provide check-in and check-out times
+Choose work type (e.g., Hybrid, Remote, Office)
+Optionally link to a batch
+Batch Attendance Management
+Assign or update attendance for multiple employees efficiently using batch grouping.
+Filters and Grouping
+Search bar and Filter/Group By options allow targeted record views (by employee, date, shift, etc.).
+Work Type Flexibility
+Supports diverse environments such as Work From Office (WFO), Work From Home (WFH), or Hybrid.
+________________
+
+
+Functionalities
+                  * Edit Records: Modify incorrect attendance entries using the Edit option.
+                  * Delete Records: Remove invalid or duplicate records using the Delete option.
+                  * Bulk Actions: Perform grouped operations from the Actions dropdown.
+                  * Overtime Tracking: Attendance records reflect overtime when applicable, ensuring fair compensation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Requests
+The Attendance Requests section allows employees to submit requests for attendance adjustments and enables administrators to review, validate, or reject those requests. It centralizes requested attendances for efficient handling and ensures accuracy in attendance records.
+________________
+
+
+Features in Attendance Requests
+                  8. Requested Attendances Table
+                  * Displays attendance requests with details such as:
+                  * Employee Name & ID
+                  * Batch (if applicable)
+                  * Date & Day
+                  * Check-In / Check-Out Times
+                  * Shift (e.g., Regular, Night, Morning)
+                  * Work Type (e.g., WFO, WFH, Hybrid, Remote)
+                  * Minimum Hours Required
+                  * Worked Hours / Overtime
+                  * Comments (if provided)
+                  * Each row includes Actions for managing requests (edit/delete/validate).
+                  9. Validation Indicators
+                  * Requests are grouped by validation status:
+                  * Validated (green)
+                  * Not-Validated (gray)
+                  * Bulk-Requests (blue, for multi-employee submissions).
+                  10. Bulk Actions
+                  * The Select All Records button allows administrators to select multiple requests at once for approval, rejection, or other batch operations.
+                  11. Filters and Grouping
+                  * Use Search, Filter, and Group By options to quickly locate specific requests by employee, date, or validation status.
+                  12. Create Attendance Request
+                  * Click + Create to open the request form. Fields typically include:
+                  * Employee (single or multiple selection if bulk mode is enabled)
+                  * Attendance Date
+                  * Shift (Regular, Night, etc.)
+                  * Work Type (WFO, WFH, Hybrid, Remote)
+                  * Check-In / Check-Out Times
+                  * Worked Hours (auto-calculated)
+                  * Minimum Hour (requirement for approval)
+                  * Batch Attendance (optional)
+                  * Description (reason or justification)
+                  * Create Bulk toggle allows submitting requests for multiple employees simultaneously.
+________________
+
+
+Validation Process
+Pending requests are shown as Not-Validated.
+Administrators validate or reject requests to ensure compliance with company attendance rules.
+Once validated, attendance becomes part of official records and may update hours, overtime, or payroll automatically.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hour Summary
+The Hour Summary section in the attendance module is designed to provide an overview of the hours worked by employees, including pending hours and overtime calculations. Here's how it works:
+Key Features:
+Overview Table:
+The main table displays employee-specific data for a selected month and year.
+Columns include:
+Employee Name
+Month and Year
+Total Worked Hours
+Pending Hours
+Overtime Hours
+Actions for editing or deleting the record.
+Filters and Grouping:
+Allows filtering by fields like month and year to refine the records displayed.
+Grouping options are available for organizing the data by specific fields.
+Add New Hour Account:
+Users can manually add a record for an employee's worked hours, pending hours, and overtime.
+Fields to input include:
+Employee Name
+Month and Year
+Worked Hours
+Pending Hours
+Overtime Hours
+The form ensures required fields are completed before submission.
+Action Buttons:
+Edit: Allows users to modify the existing hour account details.
+Delete: Removes an hour account record if needed.
+Use Cases:
+This section is particularly useful for HR teams or managers who need to track and manage employee working hours, including overtime, across specific months.
+It also supports scenarios where manual adjustments to hour data are required for compliance or payroll calculations.
+Timesheet
+The Timesheets (Work Records) section provides a calendar-style grid displaying employee attendance across an entire month. It enables managers and HR teams to quickly review attendance status patterns (present, absent, leave, conflicts) and supports exporting for reporting purposes.
+________________
+
+
+Key Features
+Monthly Grid View
+Displays employees in rows and days of the selected month in columns.
+Each cell shows the employee’s attendance status for that day.
+Supported attendance statuses:
+P (Green) – Present
+Half Day Present (Yellow)
+On Leave, but Attendance Exists (Brown)
+Absent (Gray)
+Expected Working (Blue Dot)
+Conflict (Red)
+Navigation & Date Selection
+Select the month from the calendar picker to view attendance records for that period.
+Date is displayed in the top-right for quick reference.
+Export Option
+Use the Export button to download attendance data for payroll, audits, or analysis.
+Filter Option
+Refine displayed records by employee, department, or attendance status.
+Bulk Visualization
+Provides a bird’s-eye view of attendance for the entire workforce.
+Ideal for spotting patterns such as frequent absences, conflicts, or unvalidated records.
+________________
+
+
+Benefits
+Simplifies monthly attendance monitoring.
+Makes it easy to detect inconsistencies or conflicts.
+Supports compliance by providing an export-ready format.
+Ensures HR can manage and validate attendance at scale.
+Logs & Events
+The Logs & Events section provides a detailed record of employee attendance activities, focusing on individual check-ins and check-outs for specified dates. It serves as a chronological log to help HR and managers monitor and verify attendance entries.
+________________
+
+
+Key Features
+Attendance Records Overview
+Displays all recorded attendance entries for employees.
+Columns include:
+Employee Name and ID
+Attendance Date
+Check-In Time
+Check-Out Time
+In Date and Out Date (useful for overnight shifts).
+Selection Tools
+Select All Attendance: Quickly mark all records for bulk actions.
+Unselect All Attendance: Clear all selections.
+Selected Count Display: Shows how many records have been selected.
+Export Attendance
+Allows exporting attendance logs for reporting or payroll analysis.
+Useful for compliance and workforce management.
+Action Options
+Delete individual attendance records via the trash icon.
+Ensures duplicate or incorrect entries can be easily corrected.
+Filtering and Grouping
+Apply filters to refine results (e.g., by employee, date range, or shift).
+Group records by attributes such as employee, date, or validation status for better visibility.
+
+
+
+
+Exceptions
+The Exceptions section provides a detailed overview of employees' attendance irregularities such as arriving late or leaving early. It is a critical tool for tracking punctuality and ensuring compliance with attendance policies.
+Key Features:
+Attendance Records: Displays detailed information for each irregularity, including:
+Employee name
+Type of irregularity (Late Come/Early Out)
+Attendance date
+Check-in and check-out times
+Duration of work and minimum required hours.
+Actions:
+Penalty: Assign penalties for the specific irregularity.
+Delete: Remove incorrect or irrelevant attendance records.
+Details Modal: Clicking on a record opens a detailed view showing:
+Full attendance information.
+Validation status.
+Any penalties applied.
+Batch Actions: Ability to select multiple records for batch penalties or deletion.
+This section helps maintain a fair and consistent attendance policy while holding employees accountable for deviations. It also integrates well with other attendance-related sections to provide a holistic view of employee behavior.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+My Logs (My Attendances)
+The My Logs section provides employees with a personal view of their own attendance records. Unlike the admin-level “Attendances” or “Records” sections, this page is focused solely on an individual employee’s attendance history, including check-ins, check-outs, and validation status.
+________________
+
+
+Features
+                  7. Personal Attendance Records
+                  * Displays attendance entries only for the logged-in employee.
+                  * Columns include:
+                  * Employee (name/ID)
+                  * Date
+                  * Day
+                  * Check-In time
+                  * In Date
+                  * Check-Out time
+                  * Out Date
+                  * Shift
+                  * Work Type (e.g., WFO, WFH, Hybrid, Remote)
+                  * Min Hour (minimum required hours for the day)
+                  8. Validation Indicators
+                  * Attendance records show status markers:
+                  * Green – Validated
+                  * Red – Not Validated
+                  * Orange – Requested
+                  * Blue – Approved Request
+                  9. Filtering Options
+                  * Employees can apply filters to narrow results by date range, shift, or status.
+                  10. Pagination
+                  * Supports pagination for browsing historical attendance across multiple pages.
+________________
+
+
+Functionalities
+Self-Tracking: Employees can review their attendance without needing admin access.
+Transparency: Validation status ensures employees know whether their attendance is confirmed.
+Error Visibility: If check-in/check-out times are missing or misaligned, employees can see discrepancies and raise requests.
+Leave
+
+
+Overview
+The Leave Dashboard serves as a comprehensive overview for managing leave requests and statuses across the organization. It contains the following key elements:
+Key Sections:
+                  11. Requests Overview:
+                  * Displays metrics for requests pending approval, approved leaves, and rejected leaves for the current month.
+                  12. Employee Leaves:
+                  * Highlights any leave requests made by employees within the month.
+                  13. On Leave:
+                  * Lists employees who are currently on leave, providing an at-a-glance view of unavailable team members.
+                  14. Upcoming Holidays:
+                  * Displays the next holidays scheduled for the month.
+                  15. Department Leaves:
+                  * Breaks down leave requests by department, helping to identify potential workload imbalances.
+                  16. Leave Type Analytics:
+                  * Provides a count of leave requests categorized by type (e.g., sick leave, casual leave).
+                  17. Weekly Leave Trends:
+                  * Offers a graphical representation of leave patterns over the weeks of the current month.
+Functionality:
+Dynamic Filtering: Users can select specific timeframes or departments to view leave data relevant to their needs.
+Personalized View: A shortcut to "View Personal Dashboard" allows users to quickly access their own leave data and statuses.
+Integration with Calendar: Calendar dropdowns streamline the selection of specific months or weeks for focused analysis.
+This dashboard acts as a centralized tool for HR and managers to monitor, approve, and analyze leave activities, ensuring smooth operations and maintaining balance within the workforce.
+My Requests
+The My Requests section serves as a personal hub for employees to manage their leave requests. Here's a breakdown of its features:
+                  * Overview Display:
+                  * If no leave requests are found, the interface prominently displays an illustration and a message stating "No search result found!".
+                  * Status filters are visually represented using color codes:
+                  * Yellow for "Requested"
+                  * Green for "Approved"
+                  * Gray for "Cancelled"
+                  * Red for "Rejected"
+                  * Create Leave Request:
+                  * Clicking the "+ Create" button opens a modal where users can fill in the leave details:
+                  * Leave Type: Dropdown for selecting predefined leave categories (e.g., Sick Leave, Annual Leave).
+                  * Start and End Dates: Allows specifying the period for leave.
+                  * Start Date Breakdown & End Date Breakdown: Users can choose between "Full Day," "First Half," or "Second Half."
+                  * Attachment: Option to upload supporting documents, such as a medical certificate or proof for leave.
+                  * Description: A mandatory field for detailing the reason for the leave request.
+                  * Bulk Selection:
+                  * A "Select All Requests" option is present to streamline actions on multiple leave entries.
+This section ensures employees can efficiently track and submit their leave requests while providing a clean and user-friendly interface for interaction. The option to add breakdowns for partial days adds a layer of flexibility to leave management.
+
+
+
+
+
+
+
+
+
+
+Team Requests (Leave Requests)
+The Team Requests section allows managers and HR personnel to manage employee leave applications efficiently. It provides a centralized interface for reviewing, approving, or rejecting leave requests, ensuring smooth coordination within teams and departments.
+________________
+
+
+1. Main Leave Requests Table
+The main table provides a complete overview of all leave requests submitted by employees.
+Columns:
+Employee: Displays the employee’s name and ID.
+
+Leave Type: Type of leave requested (e.g., Casual Leave, Sick Leave, Annual Leave).
+
+Start and End Dates: The requested leave duration.
+
+Requested Days: Total days of leave requested.
+
+Leave Clash: Highlights conflicts with other team members’ leaves.
+
+Status: Current state (Requested, Approved, Rejected, Cancelled).
+
+Comments: Access to notes or feedback on the request.
+
+Actions: Edit, delete, or process leave requests.
+
+Penalties: Apply leave deductions or financial penalties.
+
+Confirmation: Approve or reject directly from the table.
+
+Batch Actions:
+Bulk Approve/Reject: Process multiple requests at once.
+
+Export: Export leave request data for reporting or recordkeeping.
+
+Delete: Remove multiple leave requests simultaneously.
+
+________________
+
+
+2. Comments Section
+                  13. Clicking the Comments button opens a dedicated thread for the selected leave request.
+
+                  14. Comments appear chronologically and display the author’s name.
+
+                  15. Authorized users can delete comments if necessary.
+
+________________
+
+
+3. Penalty Adjustment Popup
+Accessed via the Penalty button in the main table. Managers can assign penalties or adjust leave balances.
+Features include:
+                     13. Leave Type Selection: Adjust a specific leave type.
+
+                     14. Minus Leaves: Deduct leave days from the balance.
+
+                     15. Deduct from Carry Forward: Toggle to use carry-forward leave days.
+
+                     16. Penalty Amount: Enter a financial deduction (applied to payslips).
+
+                     17. Leave Balance Display: Shows available and carry-forward days for each leave type.
+
+________________
+
+
+4. Create Leave Request
+Managers or HR can create leave requests on behalf of employees.
+Fields:
+Employee: Select from the employee directory.
+
+Leave Type: Mandatory selection.
+
+Start and End Dates: With options for Full Day, First Half, or Second Half.
+
+Attachment: Upload supporting files (e.g., medical certificate).
+
+Description: Reason for leave.
+
+Actions:
+Save: Submit the request for approval.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Leave Categories
+Leave Categories Section
+The Leave Types page provides a comprehensive overview and management functionality for various types of leaves within an organization. Here's a breakdown of its features:
+1. Leave Categories Overview
+The page lists all existing leave types in a card-based format with key information:
+                        17. Name of Leave Type (e.g., Maternity Leave, Sick Leave, etc.)
+                        18. Payment Status: Paid or Unpaid
+                        19. Total Days Allowed
+Each card includes additional options (via a menu button or click):
+Edit: Modify the leave type details.
+Assign: Allocate this leave type to specific employees.
+Delete: Remove the leave type.
+2. Creating a Leave Type
+When creating a new leave type, the form includes:
+Leave Name: The name of the leave type.
+Icon and Color: Visual customization for easy identification.
+Payment Status: Choose between Paid or Unpaid.
+Total Days: Specify the maximum number of days allowed.
+Additional Settings:
+Limit Leave Days: Enable or disable restrictions on days.
+Reset: Decide if the leave resets periodically.
+Require Approval: Indicate if manager approval is mandatory.
+Require Attachment: Attach supporting documentation.
+Exclude Company Holidays: Exclude public or company holidays.
+Is Encashable: Specify if unused leave days are convertible into monetary compensation.
+Assign to Employees: Allocate the leave type to individual employees or groups.
+Once filled, the Create button finalizes the new leave type.
+3. Viewing Leave Type Details
+Clicking on a leave type card reveals a detailed popup with:
+                        11. Name and Icon: For identification.
+                        12. Attributes: Includes total days, reset options, carry forward type, payment status, and approval requirements.
+                        13. Options:
+                        * Edit: Adjust leave attributes.
+                        * Assign: Assign this leave type to employees.
+                        * Delete: Remove the leave type permanently.
+This feature-rich interface ensures that all leave types are managed effectively while offering customization and accessibility for employees and administrators alike.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Granted Leave
+The Granted Leave section allows administrators to manage and monitor leave assignments for employees efficiently. This includes viewing existing leave allocations and assigning new leaves as needed.
+Features
+Leave Overview
+The section displays leave assignments categorized by leave type (e.g., Sick Leave, Casual Leave).
+Key information displayed includes:
+Employee name and ID.
+Leave type.
+Available days.
+Carryforward days (if applicable).
+Total leave days.
+Used leave days.
+Assigned date.
+Assigning Leaves
+New leave allocations can be created via the Assign Leaves modal:
+Leave Type: Select from the available leave types.
+Employees: Choose employees to assign leave to from the dropdown or search filter.
+Save: Finalize the leave assignment.
+Actions
+Edit: Modify an existing leave assignment.
+Delete: Remove a leave assignment from the system.
+Filters and Grouping
+Filter: Narrow down results by specific fields such as leave type.
+Group By: Organize leave assignments by categories for better visualization.
+
+
+
+
+
+
+
+
+
+
+
+
+Leave Allocation Requests
+The Leave Allocation Requests section allows employees and managers to request, track, and approve leave allocations. This feature ensures transparent management of leave entitlements by providing structured request workflows and documentation.
+________________
+
+
+1. Main Page – Leave Allocation Requests
+                        * Displays a list of all submitted allocation requests.
+
+                        * When no requests are present, a placeholder message appears:
+
+“There are no leave allocation requests at the moment.”
+
+                        * Includes a Create button for submitting new leave allocation requests.
+
+________________
+
+
+2. Creating a Leave Allocation Request
+When clicking Create, a modal form opens with the following fields:
+                           * Leave Type (Mandatory)
+                           * Dropdown to select the type of leave (e.g., Annual Leave, Sick Leave, Casual Leave).
+                           * Employee (Mandatory)
+                           * The employee for whom the allocation request is being made.
+                           * Requested Days
+                           * Field to specify the number of leave days being allocated.
+                           * Description (Mandatory)
+                           * A text field for entering the justification or details of the leave allocation request.
+                           * Attachment (Optional)
+                           * Allows uploading of supporting documents (e.g., HR approval letter, medical certificate).
+                           * Save Button
+                           * Saves and submits the allocation request for review and approval.
+________________
+
+
+3. Workflow & Actions
+                           * Submission: Employee/manager submits a new allocation request.
+                           * Review: HR/admin reviews the request along with provided details and attachments.
+                           * Approval/Rejection: Allocation requests can be approved or rejected based on company policy.
+                           * Records: Approved requests are logged into the system for tracking leave entitlements.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Payroll
+
+
+Overview
+The Payroll Overview provides an at-a-glance summary of payroll activities for a selected month and year, allowing administrators to monitor the payroll process effectively.
+________________
+
+
+1. Features
+Key Payroll Metrics
+Displays summarized payroll data with the following status indicators:
+Paid: Number of payslips marked as fully paid.
+Confirmed: Number of payslips confirmed but not yet paid.
+Review Ongoing: Payslips under review or requiring validation.
+Draft: Payslips saved in draft status, awaiting further action.
+Payslip Information
+Employee Payslips:
+Section for generated payslips.
+Displays total payslips generated and the total payment amount for the selected period.
+Department Total Amount:
+Displays the total payment amount for all departments combined.
+Employer Contributions
+Section to view the employer's contribution records based on the selected employee or department.
+Contracts Ending
+Summary of the number of contracts expiring in the upcoming month.
+Department Chart
+                           18. Visual representation of department-wise payroll distribution.
+________________
+
+
+2. Usage Scenarios
+Monitor Payroll Status
+Quickly identify the current status of payroll processes (e.g., drafts, confirmed, paid).
+Assess Employer Contributions
+Analyze employer contributions for specific employees or departments.
+Track Contract Expirations
+Stay informed about upcoming contract terminations to manage renewals or replacements.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Employment Contracts
+The Employment Contracts section enables administrators and HR personnel to manage employee contracts. It provides functionalities for creating, editing, and monitoring the status of contracts for employees.
+________________
+
+
+1. Features
+Contract List
+Displays all employee contracts in a tabular format.
+Key Columns:
+Contract: The title of the contract.
+Employee: The name and ID of the employee associated with the contract.
+Start Date: The start date of the contract.
+End Date: The end date of the contract, if applicable.
+Wage Type: Monthly or hourly wage type.
+Basic Salary: The base salary specified in the contract.
+Filing Status: Filing status of the employee for tax or documentation purposes.
+Status: Indicates the current state of the contract: Active, Draft, Expired, or Terminated.
+Contract Status Dropdown
+Located in the status column of each contract.
+Allows changing the status of the contract to:
+Draft
+Active
+Expired
+Terminated
+Actions
+Edit: Opens a form to modify contract details.
+Delete: Removes the contract from the system.
+________________
+
+
+2. Contract Creation
+                           16. Button: + Create
+                           17. Fields Required:
+                           * Contract Title: The title of the contract.
+                           * Employee: Select the employee for whom the contract is being created.
+                           * Contract Start Date: Specify the date when the contract begins.
+                           * Contract End Date: Specify the end date, if applicable.
+                           * Wage Type: Choose whether the employee is paid Monthly or Hourly.
+                           * Pay Frequency: Frequency of salary payments (e.g., monthly).
+                           * Basic Salary: Enter the base salary amount.
+                           * Filing Status: Specify the employee's filing status for tax purposes.
+                           * Department: Assign the employee to a department.
+                           * Job Position: Specify the job position associated with the contract.
+                           * Job Role: Define the role assigned to the employee.
+                           * Shift: Specify the shift timing for the employee.
+                           * Work Type: Specify if the employee works from the office, remotely, or in a hybrid model.
+                           * Notice Period: Define the required notice period for contract termination.
+                           * Contract Document: Upload a document for the contract (optional).
+                           * Deduct from Basic Pay: Enable deductions from the base salary if applicable.
+                           * Calculate Daily Leave Amount: Enable calculations for daily leave deductions.
+                           * Note: Additional remarks or notes about the contract.
+________________
+
+
+3. Contract Details
+                           * Clicking on a contract opens a detailed view displaying:
+                           * Contract Title: The title of the contract.
+                           * Employee Information: Name, ID, department, and job position.
+                           * Wage and Payment Details: Basic salary, wage type, and pay frequency.
+                           * Contract Period: Start and end dates of the contract.
+                           * Status: Current status of the contract.
+                           * Work and Role Information: Job role, shift, and work type.
+                           * Notice Period: Required notice for termination.
+This section ensures efficient management of employee contracts by centralizing all relevant information and actions in a single interface.
+
+
+
+
+
+
+
+
+Earnings & Allowances
+The Earnings & Allowances section provides options to manage and configure allowances for employees, including fixed and conditional allowances.
+________________
+
+
+1. Features
+Allowance Cards
+Each allowance is displayed as a card with the following information:
+Title: Name of the allowance (e.g., Travel Allowance, House Rent Allowance).
+Amount: Monetary value of the allowance.
+One-Time Allowance: Indicates whether the allowance is a one-time payment.
+Taxable: Displays if the allowance is taxable or not.
+Allowance Actions
+Clicking on an allowance card provides details, such as:
+Taxable: Indicates whether the allowance is subject to tax.
+
+One-Time Allowance: Specifies if it is a one-time payment.
+
+Condition-Based: Shows whether the allowance depends on specific conditions.
+
+Amount: The monetary value allocated.
+
+Eligibility: Displays the condition (e.g., "If Basic Pay > 0").
+
+Actions available:
+Edit: Modify allowance details.
+Delete: Remove the allowance.
+________________
+
+
+2. Allowance Creation
+Steps to Create an Allowance
+Click the + Create button.
+Fill in the fields in the allowance creation form:
+Title: Name of the allowance.
+One-Time Date: (Optional) Date for a one-time allowance.
+Include All Active Employees: Toggle to apply the allowance to all employees.
+Specific Employees: Assign the allowance to selected employees.
+Is Taxable: Toggle if the allowance is taxable.
+Is Fixed: Specify if the amount is fixed or variable.
+Is Condition-Based: Enable to define eligibility conditions.
+Condition Criteria:
+If Choice: Select a base metric (e.g., Basic Pay).
+If Condition: Define the condition (e.g., "Greater Than").
+If Amount: Input the condition value.
+Amount: Enter the monetary value.
+Click Save to create the allowance.
+________________
+
+
+3. Viewing and Managing Allowances
+View Allowance Details: Click on an allowance card to view its full details, including:
+Taxable status, conditions, and eligibility criteria.
+Amount and payment type (e.g., one-time or recurring).
+Editing Allowances:
+Navigate to an allowance and click Edit.
+Update the fields as needed and save the changes.
+Deleting Allowances:
+Select an allowance and click Delete to remove it.
+________________
+
+
+This section simplifies managing employee allowances by offering flexible and detailed configuration options.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deducations
+The Deductions module enables administrators to create and manage deductions for employee payroll. These deductions can be customized based on fixed or variable conditions, taxable or non-taxable criteria, and more.
+________________
+
+
+1. Features
+Deduction Cards
+                           * Displays a list of deductions in a card layout.
+                           * Key Details on Each Card:
+                           * Title: Name of the deduction (e.g., "ESI," "Social Security").
+                           * Amount:
+                           * Employer Rate (percentage or fixed amount deducted from the employer).
+                           * Employee Rate (percentage or fixed amount deducted from the employee).
+                           * One Time Deduction: Indicates if the deduction is a one-time event.
+                           * Pretax: Indicates if the deduction is applied before taxes.
+Actions Menu
+                           20. Accessible via the three-dot menu on each deduction card.
+                           21. Options Include:
+                           * Edit: Modify deduction details.
+                           * Delete: Remove a deduction.
+________________
+
+
+2. Deduction Creation
+Button: + Create
+Purpose: Add a new deduction by defining its parameters and conditions.
+Fields to Configure:
+Title: Name of the deduction.
+One Time Date: Set a specific date if the deduction is a one-time event.
+Include All Active Employees: Toggle to apply the deduction to all active employees.
+Specific Employees: Select individual employees for the deduction.
+Is Tax: Indicates if the deduction is treated as a tax.
+Is Pretax: Determines if the deduction is calculated before taxes.
+Is Condition-Based: Toggle to enable condition-based deduction logic.
+If enabled, specify:
+If Choice: Select a base field (e.g., "Basic Pay").
+If Condition: Define the condition (e.g., "Greater Than").
+If Amount: Set the amount for the condition.
+Update Compensation: Option to adjust compensation details alongside the deduction.
+Is Fixed: Toggle to define if the deduction amount is fixed or variable.
+Amount: Specify the deduction amount.
+________________
+
+
+3. Deduction Details
+Click on a deduction card to view its details.
+Displayed Information:
+Taxable or non-taxable status.
+One-time or recurring deduction.
+Condition-based criteria (if applicable).
+Maximum limit (if any).
+Employer and employee rates.
+Actions:
+Edit: Update deduction details.
+Delete: Remove the deduction from the system.
+________________
+
+
+This module simplifies managing payroll deductions, allowing for detailed customization and streamlined payroll processes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Payslips
+The Payslips section allows administrators to generate, view, and manage employee payslips. This section is critical for payroll management, providing detailed information on earnings, deductions, and net pay.
+________________
+
+
+1. Features
+Payslip List
+                           * Displays all generated payslips in a tabular format.
+                           * Key Columns:
+                           * Employee: Name and badge ID of the employee.
+                           * Start Date: The beginning of the payroll period.
+                           * End Date: The end of the payroll period.
+                           * Batch: Indicates the payroll batch for the period.
+                           * Gross Pay: Total earnings before deductions.
+                           * Deduction: Total deductions for the payroll period.
+                           * Net Pay: Final payable amount after deductions.
+                           * Status: Current status of the payslip (Draft, Paid, etc.).
+Actions Menu
+Edit: Open the payslip to modify details such as allowances or deductions.
+Delete: Remove the payslip from the system.
+Download: Generate a downloadable PDF of the payslip.
+Send Email: Email the payslip to the respective employee.
+________________
+
+
+2. Payslip Creation
+Button: + Create
+Fields Required:
+Employee: Select the employee for whom the payslip is to be generated.
+Start Date: Start date of the payroll period.
+End Date: End date of the payroll period.
+Action: After filling in the required fields, click Save to generate the payslip.
+________________
+
+
+3. Payslip Details
+On selecting a payslip from the list, a detailed view is displayed:
+Employee Details:
+Employee Name, ID, Department, and Bank Account/Cheque Number.
+Payroll Summary:
+Allowances: Lists earnings like Basic Pay, Travel Allowance, etc.
+Deductions: Includes items like taxes, loss of pay, etc.
+Net Pay: Total earnings minus deductions.
+Actions:
+Add additional allowances or deductions by clicking the + button in their respective sections.
+Edit or delete allowances and deductions as needed.
+________________
+
+
+4. Status Management
+Statuses:
+Draft: Payslip is not finalized.
+Paid: Payment is processed and confirmed.
+Review Ongoing: Payslip is under review.
+Administrators can update the status using the dropdown menu in the status column.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Loans & Salary Advances
+Loans & Salary Advances Overview
+The Loans & Salary Advances section facilitates the management of financial requests such as loans, advanced salaries, and penalties. Administrators can track and manage these requests for employees efficiently.
+________________
+
+
+1. Features
+Request List
+                           18. Displays all loan, advanced salary, or penalty requests as cards.
+                           19. Key Details on Each Card:
+                           * Employee: Name and profile icon of the employee.
+                           * Title: Short title describing the request.
+                           * Provided Date: The date the loan/advance was issued.
+                           * Type: Specifies whether it's a loan, advanced salary, or penalty.
+                           * Description: Notes related to the request.
+                           * Installments: Button to view the installment breakdown for the request.
+Actions on Cards
+Edit: Opens the request form for modifications.
+Delete: Deletes the request.
+________________
+
+
+2. Request Creation
+                           14. Button: + Create
+
+                           15. Opens a form to create a new loan, advanced salary, or penalty request.
+
+Fields in the Form:
+
+                              * Type: Select Loan, Advanced Salary, or Penalty/Fine from the dropdown.
+                              * Title: Provide a descriptive title for the request.
+                              * Employee: Select the employee from the dropdown list.
+                              * Amount: Specify the amount requested.
+                              * Provided Date: Date the loan or advance was given.
+                              * Description: Add details about the reason or terms of the request.
+                              * Installment Amount: Define the installment amount to be repaid.
+                              * Total Installments: Set the total number of installments for repayment.
+                              * Installment Start Date: Date on which installments will begin.
+                              * Settled: Toggle to mark the request as settled.
+Steps to Create:
+Click the + Create button.
+Fill in the fields in the form.
+Click Save to add the request.
+________________
+
+
+3. Installment Details
+Button: Installments on each card.
+Opens a breakdown of installment payments:
+Amount Paid
+Remaining Balance
+Payment Dates
+Status (Paid/Unpaid)
+Administrators can track repayment progress or adjust installment details if necessary.
+________________
+
+
+This module simplifies the process of managing employee financial requests, providing transparency and efficiency.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+End-of-Service & Reimbursements
+The End-of-Service & Reimbursements section provides employees with the functionality to submit requests for reimbursements or encashments. These requests can include monetary reimbursements, bonus point encashments, or leave encashments, all requiring manager or admin approval.
+________________
+
+
+1. Features
+Reimbursement Requests Overview
+Displays all reimbursement or encashment requests in a card format.
+Information on each card includes:
+Type: Reimbursement, Bonus Point Encashment, or Leave Encashment.
+Employee: Name and ID of the employee requesting.
+Date: Submission date of the request.
+Details: Title, description, and amount of the request.
+Requests can have different statuses:
+Requested: Pending approval.
+Approved: Approved by the manager/admin.
+Rejected: Declined by the manager/admin.
+________________
+
+
+2. Request Creation
+Button: + Create
+Allows users to create new reimbursement or encashment requests.
+Steps:
+Click on the + Create button to open the Reimbursement/Encashment form.
+Fill in the following fields:
+Title: A short description of the reimbursement or encashment.
+Type: Select the type of request (Reimbursement, Bonus Point Encashment, Leave Encashment).
+Employee: Select the requesting employee.
+Allowance on: Specify the relevant date for the reimbursement or encashment.
+Attachments: Upload any supporting documents (e.g., receipts or approval letters).
+Amount: Specify the requested amount.
+Description: Provide details or justification for the request.
+Click Save to submit the request.
+________________
+
+
+3. Request Types
+Reimbursement
+Used to request monetary reimbursement for expenses incurred.
+Examples: Travel expenses, office supplies, etc.
+Bonus Point Encashment
+Allows employees to convert earned bonus points into monetary value.
+Leave Encashment
+Enables employees to encash unused leave days for monetary compensation.
+________________
+
+
+4. Request Details
+Clicking on a reimbursement or encashment card provides a detailed view:
+Employee Information: Name, ID, and other related details.
+Type: Specifies whether it is a reimbursement, bonus point encashment, or leave encashment.
+Date: Indicates the submission or allowance date.
+Description: Additional details or justification for the request.
+Amount: The requested amount.
+Attachments: View supporting documents.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Federal Tax
+The Federal Tax section manages the filing statuses and associated tax brackets for employees. This feature allows administrators to define, update, and apply specific tax rates based on income ranges.
+________________
+
+
+1. Features
+Filing Status List
+Displays all defined filing statuses in a tabular format.
+Key Columns:
+Tax Rate: Percentage of income taxed for the specific range.
+Min. Income: Minimum income required for this tax bracket.
+Max. Income: Maximum income covered in this tax bracket.
+Actions Menu
+Create: Add a new tax bracket to the filing status.
+Update: Modify an existing tax bracket.
+Delete: Remove an existing tax bracket.
+________________
+
+
+2. Filing Status Creation
+Steps to Create a Filing Status:
+Click the + Create button.
+Fill in the required fields:
+Filing Status: Name of the tax filing status (e.g., Single, Married).
+Based On: Choose the income base (Basic Pay, Gross Pay, or Taxable Gross Pay).
+Python Code (optional): Add any custom Python logic for advanced configurations.
+Description: Add a brief explanation for this filing status.
+Save the filing status to make it available in the list.
+________________
+
+
+3. Adding Tax Brackets to a Filing Status
+Steps to Add a Tax Bracket:
+Select the desired Filing Status from the list.
+Click the + button next to the filing status.
+Provide details for the tax bracket:
+Tax Rate: Enter the percentage rate for this bracket.
+Min. Income: Set the minimum income to qualify for this bracket.
+Max. Income: Define the maximum income for this bracket.
+Save the tax bracket. It will appear under the selected filing status.
+________________
+
+
+4. Managing Tax Brackets
+                              * Update: Click the Edit Icon next to a tax bracket to modify its values.
+                              * Delete: Use the Trash Icon to remove a tax bracket.
+This feature ensures precise tax management for employees by allowing detailed configuration of income-based tax brackets.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Performance
+
+
+Overview
+The Performance Overview provides a quick summary of key performance metrics, helping administrators monitor the progress and status of employee objectives, key results, and feedback.
+________________
+
+
+1. Features
+Summary Cards
+Total Employee Objectives: Displays the total number of employee objectives created.
+Total Key Results: Shows the total number of key results linked to objectives.
+Total Feedbacks: Indicates the total feedback entries recorded.
+Objectives At-Risk: Highlights objectives flagged as at risk, if any.
+Visual Status Reports
+                              22. Objective Status: A pie chart representation of the status of employee objectives (e.g., Not Started, In Progress, Completed).
+                              23. Key Result Status: A pie chart showing the distribution of key result statuses.
+                              24. Feedback Status: A pie chart summarizing the current state of feedback provided (e.g., Pending, Reviewed).
+This dashboard serves as the starting point for performance management, offering actionable insights at a glance.
+
+
+
+
+
+
+
+
+
+
+
+
+Goals & Objectives
+The Objectives section in the Performance module allows managers and employees to create, manage, and track organizational and individual objectives. Objectives are aligned with specific key results and can be assigned to relevant employees.
+________________
+
+
+1. Features
+Objective List
+Displays all objectives in a tabular format with key details:
+Title: Name of the objective.
+Managers: Responsible manager(s) for the objective.
+Key Results: Associated measurable outcomes.
+Assignees: Employees working on the objective.
+Duration: Time allocated for achieving the objective.
+Description: A brief explanation of the objective.
+Actions: Options to manage objectives, such as adding assignees, editing, or deleting objectives.
+Create Objective
+Enables the creation of new objectives with the following options:
+Title: Enter the objective's name.
+Managers: Assign responsible managers.
+Duration Unit and Duration: Specify the unit (e.g., months) and the time frame for completion.
+Key Result: Link a key result to the objective.
+Description: Provide an explanation of the objective.
+Add Assignees: Assign employees to the objective.
+Archive: Toggle to archive the objective when completed or no longer needed.
+________________
+
+
+2. Managing Objectives
+Creating a New Objective
+Click the + Create button.
+Fill in the following fields:
+Title: Name of the objective.
+Managers: Select one or more managers.
+Duration Unit and Duration: Choose the time unit (e.g., weeks, months) and specify the duration.
+Key Result: Choose an existing key result.
+Description: Add a description of the objective.
+Optionally, toggle the Archive field to mark it as archived.
+Click Save to create the objective.
+Adding Assignees to Objectives
+Under the Actions column, click the Add Assignees button.
+Select one or more employees from the dropdown list.
+Enter the Start Date for the assignees to begin working on the objective.
+Click Save to finalize the addition.
+Editing Objectives
+                              * Click the Edit button under the Actions column to modify the title, description, or other details of an existing objective.
+Deleting Objectives
+Click the Delete button under the Actions column to remove an objective. A confirmation prompt may appear.
+________________
+
+
+3. Employee Objectives
+                              * Self Objective: Employees can view and manage their own objectives if assigned.
+                              * All Objectives: Provides an overview of all active objectives across the organization.
+________________
+
+
+This section ensures seamless management of objectives to enhance organizational alignment and individual accountability.
+
+
+
+
+
+
+360° Feedback
+360° Feedback Section Overview
+The 360° Feedback section enables managers, employees, and colleagues to provide, request, and review feedback for various purposes, including performance reviews and self-assessments.
+________________
+
+
+1. Feedback Dashboard
+Tabs:
+Self Feedback: Feedback initiated by an employee about their own performance.
+Requested Feedback: Feedback requested by one employee from others.
+Feedbacks to Review: Feedback submitted for review by managers or peers.
+Anonymous Feedback: Feedback provided anonymously.
+Metrics:
+Feedbacks grouped by On Track, Closed, Behind, Not Started, and At Risk.
+________________
+
+
+2. Feedback List
+Displays all feedback in tabular format for easier navigation.
+Key Columns:
+Employee: Name and badge ID of the employee receiving feedback.
+Title: Feedback subject or topic.
+Status: Current state of the feedback (e.g., Not Started, On Track).
+Start Date: The date feedback collection begins.
+Due On: The deadline for feedback submission.
+Actions:
+View: Review feedback details and responses.
+Delete: Remove feedback if necessary.
+________________
+
+
+3. Feedback Creation
+Button: + Create
+Fields Required:
+Title: Enter the subject of the feedback.
+Employee: Select the employee to whom the feedback is related.
+Manager: Assign a manager to oversee the feedback process.
+Subordinates: Include subordinates, if applicable.
+Colleague: Add colleagues to contribute to the feedback.
+Period: Choose the feedback cycle or time period.
+Start Date: Define when the feedback process begins.
+End Date: Define the deadline for completing the feedback.
+Question Template: Select a predefined question template for feedback.
+Key Result: Associate the feedback with a specific key result, if any.
+Is Cyclic Feedback: Toggle to enable recurring feedback sessions.
+Save Button: Click to create the feedback.
+________________
+
+
+4. Feedback Details
+Feedback Overview:
+Displays the owner of the feedback process, start date, and due date.
+Shows employees who have and haven’t submitted their responses.
+Feedback Responses:
+Lists responses from:
+Employee.
+Manager.
+Subordinates.
+Colleagues.
+Provides an Answer View button to view or submit answers.
+Actions:
+Edit: Modify feedback details.
+Delete: Remove the feedback entry.
+Status Dropdown: Update the feedback’s progress (e.g., Not Started, On Track).
+________________
+
+
+5. Anonymous Feedback
+                              * Feature:
+                              * Allows employees to provide feedback anonymously.
+                              * Button: + Create
+                              * Fields Required:
+                              * Feedback Subject: Enter the topic or subject of the feedback.
+                              * Based On: Select the feedback’s scope (e.g., General).
+                              * Feedback Description: Add detailed comments or observations.
+                              * Save Button: Click to submit the anonymous feedback.
+This section ensures comprehensive feedback management for performance assessments, fostering a culture of transparency and accountability.
+Review Meetings
+The Review Meetings section is designed to schedule, manage, and document meetings efficiently within the organization. It ensures structured meeting workflows, attendance tracking, and proper documentation of minutes.
+________________
+
+
+1. Review Meetings Dashboard
+The dashboard provides an overview of all scheduled meetings. Each meeting is displayed in a tabular format with the following columns:
+Title: Name of the meeting.
+Employees: Number of employees attending.
+Managers: Number of managers assigned to oversee the meeting.
+Date: Scheduled date and time of the meeting.
+MoM (Minutes of Meeting): Status indicator showing whether MoM has been added.
+Additional Features:
+Search: Quickly locate meetings by title or details.
+Filters: Narrow down meetings based on date, managers, or other criteria.
+Pagination: Enables navigation through multiple pages of scheduled meetings.
+________________
+
+
+2. Actions for Review Meetings
+Each meeting entry in the table includes quick-access actions:
+Add MoM: Attach or update meeting minutes directly.
+Edit: Modify meeting details (title, date, employees, etc.).
+Delete: Remove a meeting from the system.
+________________
+
+
+3. Creating a Review Meeting
+To create a new meeting, click the Create button. This opens the meeting form with the following fields:
+Title: Enter the meeting name.
+Date: Select the scheduled date and time.
+Employees: Add employees attending the meeting.
+Manager: Assign the manager responsible for the session.
+Answerable Employees: Identify employees required to provide feedback or updates.
+Question Template (optional): Attach a predefined question template for structured discussions.
+Save: Finalizes and saves the meeting details.
+________________
+
+
+4. Minutes of Meeting (MoM) Editor
+The MoM editor allows documentation of meeting discussions, decisions, and action points.
+Features:
+Rich text editor with formatting tools:
+Bold, Italics, Underline.
+Bullet points and numbered lists.
+Alignment and indentation controls.
+Insert links, tables, and images.
+Editable and updatable notes for ongoing revisions.
+Stored with the meeting record for future reference.
+________________
+
+
+5. Use Cases
+                              16. Client Reviews: Schedule recurring review sessions with clients and document MoM.
+                              17. Performance Check-ins: Track employee progress with managers and record discussions.
+                              18. Project Updates: Maintain structured documentation of project status and decisions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+key Results (OKRs)
+The Key Results module allows organizations to track the measurable outcomes of set objectives. It provides flexibility in defining progress types, target values, and durations for each key result.
+________________
+
+
+Key Functionalities:
+Key Results Dashboard:
+Displays all existing key results.
+Provides quick insights into:
+Title
+Target Value
+Duration
+Navigation and filtering options for better usability.
+Create Key Results:
+Input fields for adding a new key result include:
+Title: A short description of the key result.
+Description: Detailed explanation of the key result.
+Progress Type: Choose between Percentage or Number.
+Target Value: Specify the desired outcome (e.g., 100% or a specific count).
+Duration: Define the time frame.
+Company: Associate the key result with a particular entity or department.
+Archive: Toggle to mark the key result as inactive or archived.
+Key Result Variants:
+Flexible configurations:
+Percentage-based Key Results: For tracking progress toward completion in percentage terms.
+Number-based Key Results: For numerical metrics like sales targets or task completions.
+Edit/Delete Key Results:
+Modify or delete existing key results with ease from the dashboard.
+________________
+
+
+Workflow:
+                              19. Access Dashboard:
+                              * Navigate to the Key Results module.
+                              * Use filters or the search bar to locate specific results.
+                              20. Add New Key Result:
+                              * Click + Create.
+                              * Fill in the required details in the form.
+                              * Save the new entry to reflect it on the dashboard.
+                              21. Monitor and Update:
+                              * Track progress through the dashboard.
+                              * Edit entries as needed to adjust targets or descriptions.
+                              22. Archive Inactive Results:
+                              * Use the Archive toggle to deactivate obsolete key results.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bonus Points
+The Bonus Points section enables organizations to assign, manage, and track employee bonus points based on contributions, achievements, or predefined criteria. This helps encourage recognition and maintain a transparent rewards system.
+________________
+
+
+1. Bonus Points Dashboard
+The dashboard provides an overview of all assigned bonus points. Each entry is displayed in a tabular format with the following details:
+Employee: Name of the employee receiving points.
+Bonus Points: Number of points assigned.
+Based On: Reason or criteria for awarding the points.
+Actions: Quick actions to edit or delete the record.
+Additional Features:
+Search & Filter: Locate specific records quickly by employee or reason.
+Pagination: Navigate through multiple records with ease.
+________________
+
+
+2. Actions for Bonus Points
+Each record in the table comes with quick actions:
+Edit: Update bonus points or reason for an employee.
+Delete: Remove assigned points if entered incorrectly or no longer valid.
+________________
+
+
+3. Creating Bonus Points
+To assign new bonus points, click the Create button. This opens a form where administrators can enter details:
+Form Fields:
+                              * Employee: Select the employee from the directory.
+                              * Bonus Points: Enter the number of points to award.
+                              * Based On: Specify the reason, criteria, or contribution being recognized.
+Save: Finalizes and records the bonus point assignment.
+________________
+
+
+4. Managing Bonus Points
+View: Track all bonus point assignments from the dashboard.
+Edit: Modify existing assignments to reflect changes.
+Delete: Permanently remove bonus points.
+________________
+
+
+5. Use Cases
+Performance Recognition: Award points for outstanding achievements or performance milestones.
+Team Contributions: Recognize employees contributing significantly to team success.
+Incentive Tracking: Maintain a transparent system for monitoring rewards and incentives.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Evaluation Periods
+The Evaluation Periods section is designed to manage specific timeframes used for performance evaluations, reporting cycles, or organizational reviews. Each period includes essential details such as a title, start and end dates, and the associated company.
+________________
+
+
+1. Evaluation Periods Dashboard
+The dashboard displays a list of all defined evaluation periods in a tabular format.
+Columns include:
+Title: The name of the evaluation period (e.g., “Q1 2025”).
+Start Date: The beginning of the evaluation cycle.
+End Date: The closing date of the cycle.
+Company: The organization linked to the evaluation period.
+Actions: Edit or delete options for quick management.
+Additional Features:
+Search & Filter: Quickly locate periods by name, date, or company.
+Pagination: Navigate through multiple evaluation periods.
+________________
+
+
+2. Actions for Evaluation Periods
+Each row provides direct access to key actions:
+                              20. Edit: Update details of an existing period.
+                              21. Delete: Remove a period permanently after confirmation.
+________________
+
+
+3. Creating an Evaluation Period
+To define a new evaluation period, click the + Create button. This opens a form with the following fields:
+Period Name: A descriptive title (e.g., “Annual Review 2025” or “Q3”).
+Start Date: The date the evaluation period begins.
+End Date: The date the evaluation period concludes.
+Company: Select the company associated with this period.
+Save: Finalize and add the new period to the dashboard.
+________________
+
+
+4. Use Cases
+Performance Reviews: Structure quarterly, semi-annual, or annual employee evaluations.
+Project Monitoring: Define reporting periods for project tracking and analysis.
+Compliance & Auditing: Maintain clearly defined timeframes for legal or organizational reporting.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Question Template
+The Question Template section allows organizations to create, manage, and customize sets of questions for assessments, feedback, and review purposes. Templates can include different question types to fit specific evaluation needs.
+________________
+
+
+1. Question Template Dashboard
+The dashboard displays a list of all available question templates in a tabular format.
+Columns include:
+Title: Name of the template.
+Total Questions: Number of questions in the template.
+Company: The company linked to the template.
+Actions: Options to edit or delete the template.
+Additional Features:
+Search & Filter: Quickly locate specific templates by name or company.
+Pagination: Navigate through multiple templates efficiently.
+________________
+
+
+2. Actions for Question Templates
+Each template record provides quick access to key actions:
+Edit: Modify template details or associated questions.
+Delete: Remove the template permanently after confirmation.
+________________
+
+
+3. Creating a Question Template
+To create a new template, click the + Create button. This opens a form with the following fields:
+Question Template Name (Required): Title for the template.
+Company (Required): Select the company associated with this template.
+                              18. Save: Finalizes and records the new template in the dashboard.
+________________
+
+
+4. Managing Questions within a Template
+Once a template is created, users can add, edit, or delete questions:
+Add Questions:
+Select a Question Type (Likert or Text).
+Enter the Question Text.
+Click Add Question to save it to the template.
+Edit Questions:
+Modify existing question text or change the question type.
+Delete Questions:
+Remove questions that are no longer relevant.
+Question Types Supported:
+Likert: Scale-based questions (e.g., 1–5 rating).
+Text: Open-ended questions for descriptive answers.
+________________
+
+
+5. Use Cases
+Performance Reviews: Build consistent evaluation forms across departments.
+Employee Feedback: Create structured surveys for gathering insights.
+Client Assessments: Use standardized templates to evaluate service or project outcomes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Offboarding
+
+
+Offboarding
+Exit Process
+The Exit Process module within the offboarding page is designed to streamline the offboarding process of employees by organizing tasks, defining stages, and tracking the progress of offboarding activities.
+________________
+
+
+1. Viewing and Managing Offboarding Pipelines
+                              * Access the Pipeline:
+                              * Navigate to the Offboarding section and select the required pipeline.
+                              * The pipeline lists the predefined stages (e.g., Notice Period, Exit Interview, Work Handover, Final Settlement, etc.).
+                              * Stages:
+                              * Each stage categorizes offboarding tasks by type.
+                              * Use the "+ Stage" button to add new stages.
+________________
+
+
+2. Adding a New Stage
+To add a new stage within the offboarding pipeline:
+                              * Click the "+ Stage" button.
+                              * Fill out the stage details:
+                              * Title: Name of the stage (e.g., Exit Interview).
+                              * Type: Select the type of stage (e.g., Notice Period, Other).
+                              * Managers: Assign managers responsible for this stage.
+                              * Click Save to finalize the stage.
+________________
+
+
+3. Creating an Offboarding Record
+To initiate the offboarding process for an employee:
+                              * Click the "+ Create" button in the offboarding page.
+                              * Enter the following details:
+                              * Title: Specify the offboarding process title.
+                              * Description: Provide additional details about the process.
+                              * Managers: Assign responsible managers.
+                              * Status: Set the status (e.g., Completed, In Progress).
+                              * Company: Select the relevant company.
+                              * Click Save to add the record.
+________________
+
+
+4. Assigning Employees to Stages
+                              19. Open the specific stage in the pipeline.
+                              20. Select Actions > Add Employee.
+                              21. Enter the details:
+                              * Employee: Select the employee undergoing offboarding.
+                              * Stage: Choose the current offboarding stage (e.g., Notice Period).
+                              * Notice Period: Specify the start and end dates.
+                              22. Click Save to finalize the assignment.
+________________
+
+
+5. Adding and Managing Tasks
+For each stage, you can assign tasks to ensure the smooth completion of offboarding activities.
+Steps to Add a Task:
+                              25. Open the required stage in the pipeline.
+                              26. Click the Add Task button.
+                              27. Fill out the task details:
+                              * Task Title: Name of the task.
+                              * Task Managers: Assign responsible managers.
+                              * Candidates: Select the employees for the task.
+                              28. Click Apply to save the task.
+Actions Available for Tasks:
+                              19. Edit: Modify the task details.
+                              20. Delete: Remove the task from the stage.
+________________
+
+
+6. Stage and Task Actions
+Each stage provides additional actions to manage tasks and employees:
+                              * Edit: Modify the stage details.
+                              * Delete: Remove the stage from the pipeline.
+For tasks:
+                              22. Track the completion progress under Task Status.
+________________
+
+
+7. Tracking Progress
+The offboarding page provides an overview of all stages and tasks:
+                              23. Employee List: Displays employees in the offboarding process with details like stage, notice period, and task status.
+                              24. Task Status: Indicates the number of tasks completed vs. pending.
+                              25. Use the Bulk Stage Change option to move multiple employees to another stage simultaneously.
+________________
+
+
+By following these steps, you can effectively manage and streamline the exit process for employees in your organization.
+
+
+
+
+
+
+
+
+Assets 
+
+
+Assets Overview
+The Assets Dashboard provides a centralized view of asset management, offering quick insights into the status, allocation, and requests related to organizational assets.
+________________
+
+
+1. Top Summary Cards
+                              26. Total Assets: Displays the overall count of assets registered in the system.
+                              27. Asset Requests: Shows the number of pending asset requests awaiting approval.
+                              28. Assets in Use: Indicates the current count of assets allocated to employees.
+________________
+
+
+2. Asset Status Chart
+Pie Chart Visualization: Provides a clear distribution of assets by status:
+In Use
+Available
+Not Available
+This allows for a quick snapshot of resource availability.
+________________
+
+
+3. Asset Requests to Approve
+Requests Table: Lists all pending asset requests with details such as:
+Requesting User
+Asset Category
+Request Date
+Status (Pending, Approved, Rejected)
+Actions: Approve or reject requests directly from the table for efficient workflow management.
+________________
+
+
+4. Assets in Use Chart
+Bar Chart Visualization: Displays usage counts of assets categorized by type, such as:
+Laptops
+Phones
+Headphones
+Other registered categories
+This provides visibility into high-demand asset types.
+________________
+
+
+5. Allocated Assets
+Allocated Assets Table: Shows details of currently assigned assets including:
+Employee/User Name
+Asset Assigned
+Assigned Date
+Helps track accountability and monitor asset distribution across the organization.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Asset Registry
+The Asset Registry section is designed to manage and track organizational assets efficiently. It categorizes assets, maintains detailed records, and allows administrators to manage the lifecycle of each asset.
+________________
+
+
+1. Asset Registry Dashboard
+                              * Displays a categorized view of assets by type (e.g., Laptops, Phones, Cameras).
+                              * Columns include:
+                              * Asset Name: Title or label of the asset.
+                              * Status: Indicates whether the asset is In Use, Available, or Not Available.
+                              * Tracking ID: A unique identifier assigned to the asset.
+                              * Batch Number: Identifies the batch or procurement group the asset belongs to.
+Additional Features:
+Search & Filter: Locate specific assets by name, ID, or category.
+Expandable Categories: Click on a category to reveal all associated assets.
+________________
+
+
+2. Actions for Assets
+Each asset record allows the following actions:
+Edit: Modify asset details such as status, tracking ID, or batch number.
+Delete: Remove the asset from the system permanently.
+Duplicate: Create a copy of the asset for quick batch entry.
+________________
+
+
+3. Creating Asset Categories
+Administrators can create new asset categories to organize and classify resources.
+Fields include:
+Name (Required): The category name (e.g., "Laptops").
+Description: A short description of the category.
+Company: Assign the category to a specific company.
+                              * Save: Records the new category in the system.
+________________
+
+
+4. Benefits & Use Cases
+Centralized Tracking: Maintain a single source of truth for all organizational assets.
+Accountability: Track which employees are currently using assigned assets.
+Batch Management: Organize assets purchased or assigned in groups for easier handling.
+Lifecycle Management: Update status as assets move from Available → In Use → Retired.
+________________
+
+
+Asset Batches
+The Asset Batches section allows administrators to group and organize assets into specific batches for easier management, tracking, and reporting.
+________________
+
+
+1. Batch List
+Displays all existing asset batches in a tabular format with the following details:
+Batch Number: Unique identifier for each batch (e.g., LPB001).
+Description: Short details about the batch purpose or type.
+Assets: Count of assets under the batch with an option to view asset details.
+________________
+
+
+2. Actions
+                              * Edit: Update batch details.
+                              * Delete: Permanently remove a batch from the system.
+                              * View Assets: Navigate to see all assets associated with a batch.
+________________
+
+
+3. Creating a Batch
+                              23. To create a new batch, click the + Create button.
+                              24. Fill out the required fields:
+                              * Batch Number: Enter a unique code for the batch (e.g., LPB001 for laptops).
+                              * Description: Add a short explanation for easy identification.
+                              25. Click Save to register the batch and add it to the list.
+________________
+
+
+4. Usage
+The Asset Batches feature helps in:
+                              * Organizing assets into logical groups.
+                              * Simplifying search, allocation, and reporting.
+                              * Enhancing visibility and control over asset categories.
+Request and Allocation
+The Asset Request and Allocation section manages the process of employees requesting, allocating, and returning assets. It also allows for fines or reports to be added in case of asset issues.
+________________
+
+
+1. Features
+Asset Request List
+                              23. Displays all submitted asset requests in a tabular format.
+                              24. Key Columns:
+                              * Requesting User: Name and ID of the employee making the request.
+                              * Asset Category: Type of asset requested (e.g., Camera, Laptop).
+                              * Request Date: Date when the request was submitted.
+                              * Status: Indicates whether the request is Requested, Approved, or Rejected.
+                              * Confirmation: Approve or reject requests using quick action buttons.
+Actions Menu
+                              29. Approve/Reject: Use the green (✔) or red (✘) buttons to take action on requests.
+                              30. Details: View the request details, including category, description, and user.
+                              31. Delete: Remove an asset request from the system.
+________________
+
+
+2. Asset Request Creation
+Button: +
+Fields Required:
+Requesting User: Select the employee making the request.
+Asset Category: Choose the type of asset (e.g., Phones, Laptops).
+Description: Provide additional notes about the request.
+Steps to Create:
+Click the + button in the Asset Request tab.
+Fill in the required fields.
+Click Save to submit the request.
+________________
+
+
+3. Asset Allocation
+Overview: Allocate requested assets to employees and track their usage.
+Allocated Assets View:
+Displays the list of currently allocated assets with details such as:
+Allocated User: Employee using the asset.
+Asset: The specific asset assigned.
+Allocation Status: Status of the allocation (e.g., Returned, In Use).
+Actions Menu
+Return: Process asset returns.
+Edit: Modify the allocation details.
+Delete: Remove an allocation.
+How to Allocate Assets:
+Navigate to the Asset Allocation tab and click the + button.
+Fill in the fields:
+Assigned To: Select the employee receiving the asset.
+Asset: Choose the specific asset.
+Assigned By: Select the manager assigning the asset.
+Condition Images (Optional): Upload initial condition images of the asset.
+Click Save to finalize the allocation.
+________________
+
+
+4. Asset Return Process
+                              21. Overview: Ensures proper tracking and verification of returned assets.
+                              22. Steps to Return an Asset:
+                              * Locate the allocated asset in the Asset Allocation list and click Return.
+                              * Fill in the Asset Return Form:
+                              * Return Status: Select the condition of the asset (e.g., Good, Minor Damage).
+                              * Return Date: Set the date of return.
+                              * Return Condition: Provide a description of the asset’s condition.
+                              * Upload Images: Attach images showing the asset's condition upon return.
+                              * Optional:
+                              * Add a Fine: If the asset is damaged, impose a fine using the Add Fine button.
+                              * Add a Report: Document issues or incidents using the Add Report button.
+                              * Click Save to complete the return process.
+________________
+
+
+5. Fines and Reports
+Add a Fine
+Purpose: Impose monetary penalties for lost or damaged assets.
+Steps:
+Click Add Fine from the Asset Return Form.
+Fill in the fields:
+Title: Provide a name for the fine.
+Fine Amount: Specify the penalty amount.
+Fine Date: Set the date the fine is issued.
+Installments (Optional):
+Define total installments and installment amounts.
+Set the start date for installments.
+Click Save to apply the fine.
+Add a Report
+Purpose: Document asset-related issues or incidents.
+Steps:
+Click Add Report from the Asset Return Form.
+Fill in the fields:
+Title: Provide a title for the report.
+Attach File: Upload supporting files or evidence.
+Click Save to finalize the report.
+This section streamlines asset management tasks, ensuring a structured and efficient workflow for handling asset requests, allocations, and returns.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Asset History
+The Asset History section provides a comprehensive record of asset assignments and returns, offering visibility into how assets have been utilized and their condition upon return.
+________________
+
+
+1. Features
+Asset History List
+Displays a table summarizing the historical usage of assets.
+Key Columns:
+Asset: Name and unique identifier (e.g., Bose QuietComfort-HPT0024).
+Employee: Name and badge ID of the employee to whom the asset was allocated.
+Assigned Date: Date when the asset was allocated to the employee.
+Returned Date: Date when the asset was returned (if applicable).
+Return Status: Describes the condition of the asset upon return (e.g., "Healthy" or "Minor Damage").
+________________
+
+
+2. Asset Details
+Clicking on an asset entry opens a detailed view showing:
+Asset Information:
+Asset name, type, and unique identifier.
+Allocated User:
+Name and badge ID of the employee who used the asset.
+Allocation Details:
+Dates of allocation and return.
+Return Status:
+Indicates the condition of the asset upon return.
+Return Description:
+Additional notes describing the condition upon return (e.g., "Good condition").
+Condition Images:
+Assign Condition Images: Images or documents captured when the asset was allocated.
+Return Condition Images: Images or documents captured when the asset was returned.
+________________
+
+
+3. Usage Scenarios
+Review Asset Allocation History
+Identify which assets have been assigned to employees and when they were returned.
+Analyze Asset Conditions
+Assess return statuses to detect patterns, such as recurring damages or maintenance needs.
+________________
+
+
+This section serves as a valuable tool for tracking the lifecycle of company assets, ensuring accountability and providing insights into their usage and condition.
